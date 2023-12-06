@@ -1,0 +1,9 @@
+PartNumber,CreateTime,ReceiptDate,Quantity,Cost,Currency,VendorName,Comment1,Comment2
+Cords-Black-29W x 28L,2005-07-12 01:01:01.123456,2004-03-08 00:00:00.0,200,10,USD,Madisons Vendor,comment 1,comment 2
+Cords-Brown-29W x 28L,2008-05-15 04:04:04.0,2008-12-24 09:02:00.0,100,20,CNY,,,
+Classic pleated dress pant-Black-29W x 32L,2009-05-21 00:00:00.0,,400,5,,,,
+Dress shirt-White-15,2009-06-21 00:00:00.0,,500,5,,,,
+Dress shirt-White-16,2009-07-21 00:00:00.0,,300,5,,,,
+Casual shirt-White-Small,2009-08-21 00:00:00.0,,100,5,,,,
+Casual shirt-Blue-Medium,2009-09-21 00:00:00.0,,50,5,,,,
+Bodysuit-Black-Petit,2009-10-21 00:00:00.0,,200,5,,,,

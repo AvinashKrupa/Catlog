@@ -1,0 +1,4 @@
+PriceRuleID,PriceRuleName,UniqueID, Name, Description, Parent, Sequence, TemplateID,FIELD1,FIELD2,FIELD3,Delete
+-99,,,PriceRuleElement001,This price rule element is just for UT,,1,1,Field11,Field22,Field33
+-99,,,PriceRuleElement002,This price rule element is just for UT,PriceRuleElement001,100,2,Field11,Field22,Field33
+

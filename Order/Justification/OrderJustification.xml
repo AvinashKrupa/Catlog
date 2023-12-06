@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Items loadItemName="OrderJustification">
+	<Item Delete="0">
+		<Code>BETTER_PRICE</Code>
+		<StoreId>11001</StoreId>
+		<Sequence>500</Sequence>
+		<Usage>3</Usage>
+		<MarkForDelete>0</MarkForDelete>
+	</Item>
+</Items>

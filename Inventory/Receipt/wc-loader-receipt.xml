@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+<_config:DataloadBusinessObjectConfiguration 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.ibm.com/xmlns/prod/commerce/foundation/config ../xsd/wc-dataload-businessobject.xsd" 
+	xmlns:_config="http://www.ibm.com/xmlns/prod/commerce/foundation/config">
+  <_config:DataLoader className="com.ibm.commerce.foundation.dataload.BusinessObjectLoader">
+    <_config:DataReader className="com.ibm.commerce.foundation.dataload.datareader.CSVReader" firstLineIsHeader="true">
+        <_config:Data>
+	        <_config:column number="1" name="PartNumber" />
+	        <_config:column number="2" name="CreateTime" />
+	        <_config:column number="3" name="ReceiptDate" />
+	        <_config:column number="4" name="Quantity" />
+	        <_config:column number="5" name="Cost" />
+	        <_config:column number="6" name="Currency" />
+	        <_config:column number="7" name="VendorName" />
+	        <_config:column number="8" name="Comment1" />
+	        <_config:column number="9" name="Comment2" />
+        </_config:Data>
+    </_config:DataReader>
+    <_config:BusinessObjectBuilder className="com.ibm.commerce.foundation.dataload.businessobjectbuilder.BaseBusinessObjectBuilder" 
+       packageName="com.ibm.commerce.inventory.facade.datatypes.InventoryPackage" dataObjectType="InventoryReceiptType">
+      <_config:DataMapping>
+        <_config:mapping xpath="InventoryReceiptIdentifier/ExternalIdentifier/CatalogEntryIdentifier/ExternalIdentifier/PartNumber" value="PartNumber" />
+        <_config:mapping xpath="InventoryReceiptIdentifier/ExternalIdentifier/CreationTime" value="CreateTime" />
+        <_config:mapping xpath="ReceiptDate" value="ReceiptDate" />
+        <_config:mapping xpath="QuantityReceived/value" value="Quantity" />
+        <_config:mapping xpath="QuantityOnHand/value" value="Quantity" />
+        <_config:mapping xpath="UnitCost/value" value="Cost" />
+        <_config:mapping xpath="UnitCost/currency" value="Currency" />
+        <_config:mapping xpath="VendorName" value="VendorName" />
+        <_config:mapping xpath="Comment1" value="Comment1" />
+        <_config:mapping xpath="Comment2" value="Comment2" />
+      </_config:DataMapping>
+      <_config:BusinessObjectMediator className="com.ibm.commerce.inventory.dataload.mediator.InventoryReceiptMediator" 
+      	componentId="com.ibm.commerce.inventory"/>      
+    </_config:BusinessObjectBuilder>
+  </_config:DataLoader>
+</_config:DataloadBusinessObjectConfiguration>

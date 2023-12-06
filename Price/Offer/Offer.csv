@@ -1,0 +1,23 @@
+PriceListUniqueId,PriceListName,CatentryUniqueId,CatentryPartNumber,Identifier,Precedence,StartDate,EndDate,QuantityUnitIdentifier,MinimumQuantity,MaximumQuantity,LastUpdate,Description,PriceInUSD,PriceInBRL,PriceInCAD,PriceInCNY,PriceInEUR,PriceInJPY,PriceInKRW,PriceInTWD,Delete
+,MadisonsNominal Products Price List,,Cords-Black-29W x 28L,2009,0,2009-07-01   00:00:00.000000,2009-08-01   00:00:00.000000,C62,1,5,,Cords-Black-29W x 28L offer,20,,,120,,,,480,0
+,Madisons Products Price List,,Cords-Black-29W x 28L,2010,0,2009-07-01   00:00:00.000000,2009-08-01   00:00:00.000000,C62,1,5,,Cords-Black-29W x 28L offer,20,,,120,,,,480,0
+,MadisonsNominal Products Price List,,Cords-Brown-29W x 28L,2011,0,2009-07-01   00:00:00.000000,2009-08-01   00:00:00.000000,C62,1,5,,Cords-Brown-29W x 28L offer,20,,,120,,,,480,0
+,Madisons Products Price List,,Cords-Brown-29W x 28L,2012,0,2009-07-01   00:00:00.000000,2009-08-01   00:00:00.000000,C62,1,5,,Cords-Brown-29W x 28L offer,20,,,120,,,,480,0
+,MadisonsNominal Products Price List,,Classic pleated dress pant-Black-29W x 32L,2013,0,2009-07-01   00:00:00.000000,2009-08-01   00:00:00.000000,C62,1,5,,Classic pleated dress pant-Black-29W x 32L offer,30,,,180,,,,720,0
+,Madisons Products Price List,,Classic pleated dress pant-Black-29W x 32L,2014,0,2009-07-01   00:00:00.000000,2009-08-01   00:00:00.000000,C62,1,5,,Classic pleated dress pant-Black-29W x 32L offer,30,,,180,,,,720,0
+,MadisonsNominal Products Price List,,Dress shirt-White-15,2015,0,2009-07-01   00:00:00.000000,2009-08-01   00:00:00.000000,C62,1,5,,Dress shirt-White-15 offer,30,,,180,,,,720,0
+,Madisons Products Price List,,Dress shirt-White-15,2016,0,2009-07-01   00:00:00.000000,2009-08-01   00:00:00.000000,C62,1,5,,Dress shirt-White-15 offer,30,,,180,,,,720,0
+,MadisonsNominal Products Price List,,Dress shirt-White-16,2017,0,2009-07-01   00:00:00.000000,2009-08-01   00:00:00.000000,C62,1,5,,Dress shirt-White-16 offer,23,,,138,,,,720,0
+,Madisons Products Price List,,Dress shirt-White-16,2018,0,2009-07-01   00:00:00.000000,2009-08-01   00:00:00.000000,C62,1,5,,Dress shirt-White-16 offer,23,,,138,,,,720,0
+,MadisonsNominal Products Price List,,Casual shirt-White-Small,2019,0,2009-07-01   00:00:00.000000,2009-08-01   00:00:00.000000,C62,1,5,,Casual shirt-White-Small offer,28,,,120,,,,480,0
+,Madisons Products Price List,,Casual shirt-White-Small,2020,0,2009-07-01   00:00:00.000000,2009-08-01   00:00:00.000000,C62,1,5,,Casual shirt-White-Small offer,28,,,120,,,,480,0
+,MadisonsNominal Products Price List,,Casual shirt-Blue-Medium,2021,0,2009-07-01   00:00:00.000000,2009-08-01   00:00:00.000000,C62,1,5,,Casual shirt-Blue-Medium offer,22,,,132,,,,528,0
+,Madisons Products Price List,,Casual shirt-Blue-Medium,2022,0,2009-07-01   00:00:00.000000,2009-08-01   00:00:00.000000,C62,1,5,,Casual shirt-Blue-Medium,22,,,132,,,,528,0
+,MadisonsNominal Products Price List,,Bodysuit-Black-Petit,2023,0,2009-07-01   00:00:00.000000,2009-08-01   00:00:00.000000,C62,1,5,,Bodysuit-Black-Petit offer,12,,,72,,,,288,0
+,Madisons Products Price List,,Bodysuit-Black-Petit,2024,0,2009-07-01   00:00:00.000000,2009-08-01   00:00:00.000000,C62,1,5,,Bodysuit-Black-Petit offer,12,,,72,,,,288,0
+,MadisonsNominal Products Price List,,Soccer shorts,2025,0,2009-07-01   00:00:00.000000,2009-08-01   00:00:00.000000,C62,1,5,,Soccer shorts offer,30,,,180,,,,720,0
+,Madisons Products Price List,,Soccer shorts,2026,0,2009-07-01   00:00:00.000000,2009-08-01   00:00:00.000000,C62,1,5,,Soccer shorts offer,30,,,180,,,,720,0
+,MadisonsNominal Products Price List,,Belt,2027,0,2009-07-01   00:00:00.000000,2009-08-01   00:00:00.000000,C62,1,5,,Belt offer,18,,,108,,,,432,0
+,Madisons Products Price List,,Belt,2028,0,2009-07-01   00:00:00.000000,2009-08-01   00:00:00.000000,C62,1,5,,Belt offer,18,,,108,,,,432,0
+,MadisonsNominal Products Price List,,Evening bag,2029,0,2009-07-01   00:00:00.000000,2009-08-01   00:00:00.000000,C62,1,5,,Evening bag offer,11,,,66,,,,264,0
+,Madisons Products Price List,,Evening bag,2030,0,2009-07-01   00:00:00.000000,2009-08-01   00:00:00.000000,C62,1,5,,Evening bag offer,11,,,66,,,,264,0

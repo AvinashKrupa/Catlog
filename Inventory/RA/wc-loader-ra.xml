@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+<_config:DataloadBusinessObjectConfiguration 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.ibm.com/xmlns/prod/commerce/foundation/config ./xsd/wc-dataload-businessobject.xsd " 
+	xmlns:_config="http://www.ibm.com/xmlns/prod/commerce/foundation/config">
+
+  <_config:DataLoader className="com.ibm.commerce.foundation.dataload.BusinessObjectLoader" >
+    <_config:DataReader className="com.ibm.commerce.foundation.dataload.datareader.CSVReader" firstLineIsHeader="true">
+        <_config:Data>
+	        <_config:column number="1" name="VendorName" />
+	        <_config:column number="2" name="CreateTime" />
+	        <_config:column number="3" name="OrderDate" />
+	        <_config:column number="4" name="ClosedDate" />
+	        <_config:column number="5" name="OpenIndicator" />
+	        <_config:column number="6" name="ExternalId" />
+	        <_config:column number="7" name="Delete" />	        
+        </_config:Data>
+    </_config:DataReader>
+    <_config:BusinessObjectBuilder className="com.ibm.commerce.foundation.dataload.businessobjectbuilder.BaseBusinessObjectBuilder" 
+       packageName="com.ibm.commerce.inventory.facade.datatypes.InventoryPackage" 
+       dataObjectType="ExpectedInventoryRecordType">
+      <_config:DataMapping>
+        <_config:mapping xpath="ExpectedInventoryRecordIdentifier/ExternalIdentifier/VendorName" value="VendorName" />        
+        <_config:mapping xpath="OrderDate" value="OrderDate" />
+        <_config:mapping xpath="ExpectedInventoryRecordIdentifier/ExternalIdentifier/CreateDate" value="CreateTime" />
+        <_config:mapping xpath="CloseDate" value="ClosedDate" />
+        <_config:mapping xpath="OpenIndicator" value="OpenIndicator" />
+        <_config:mapping xpath="ExternalId" value="ExternalId" />
+        <_config:mapping xpath="" value="Delete" deleteValue="1" />        
+      </_config:DataMapping>
+      <_config:BusinessObjectMediator className="com.ibm.commerce.inventory.dataload.mediator.ExpectedInventoryMediator"
+      	componentId="com.ibm.commerce.inventory">
+          <_config:property name="markForDelete" value="false"/>    
+      </_config:BusinessObjectMediator>
+    </_config:BusinessObjectBuilder>
+  </_config:DataLoader>
+</_config:DataloadBusinessObjectConfiguration>

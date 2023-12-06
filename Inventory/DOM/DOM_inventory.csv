@@ -1,0 +1,5 @@
+PartNumber,OnlineStoreUniqueID,PhysicalStoreIdentifier,InventoryStatus,AvailableQuantity,AvailableQuantityUOM,AvailabilityTime,AvailabilityOffset,LastUpdate,ContextStoreId,Field1,Field2,Field3,Delete
+FULO-0201,10101,,AVL,1956.00,C62,,,2012-05-04 03:04:39.000,10101,,,
+AC_1701,10101,,AVL,99.00,C62,,,2012-05-04 03:04:39.000,10101,,,
+FULO-0301,10101,,AVL,296.00,C62,,,2012-05-04 03:04:40.000,10101,,,
+FULO-0101,10101,,AVL,74.00,C62,,,2012-05-04 03:04:39.000,10101,,,

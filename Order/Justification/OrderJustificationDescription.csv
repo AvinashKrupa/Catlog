@@ -1,0 +1,5 @@
+OrderJustificationDescription
+Code,StoreId,LanguageId,Description,Delete
+BETTER_PRICE,11001,-1,The customer found a better price somewhere else,0
+BETTER_PRICE,11001,-2,Le client a trouvé un meilleur prix ailleurs,0
+BETTER_PRICE,11001,-7,客户在其他地方找到了更优惠的价格,0

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Items loadItemName="OrderJustificationDescription">
+	<Item Delete="0">
+		<Code>BETTER_PRICE</Code>
+		<StoreId>11001</StoreId>
+		<LanguageId>-1</LanguageId>
+		<Description>The customer found a better price somewhere else</Description>
+	</Item>
+	<Item Delete="0">
+		<Code>BETTER_PRICE</Code>
+		<StoreId>11001</StoreId>
+		<LanguageId>-2</LanguageId>
+		<Description>Le client a trouvé un meilleur prix ailleurs</Description>
+	</Item>
+	<Item Delete="0">
+		<Code>BETTER_PRICE</Code>
+		<StoreId>11001</StoreId>
+		<LanguageId>-7</LanguageId>
+		<Description>客户在其他地方找到了更优惠的价格</Description>
+	</Item>
+</Items>

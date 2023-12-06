@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+<_config:DataLoadEnvConfiguration
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.ibm.com/xmlns/prod/commerce/foundation/config ../xsd/wc-dataload-env.xsd"
+	xmlns:_config="http://www.ibm.com/xmlns/prod/commerce/foundation/config">
+
+	<!--The global business context setting for the loader. Default setting is loading data to Madisions store's master catalog. If you want to load in different store or catalog, you need to update the 
+storeIdentifier and catalogIdentifier in the following section.-->
+	<_config:BusinessContext storeIdentifier="Madisons" catalogIdentifier="Madisons" langId="-1" currency="USD" />
+
+	<!-- database setting for derby in Toolkit -->
+	<_config:Database type="derby" name="..\db\mall" />
+	
+	<!-- database setting for Oracle -->	
+	<!-- 
+	<_config:Database name="<database name>" user="<user>" password="<password>" port="1521" schema="<schema name>" server="<server>" type="Oracle" />
+	-->	
+	
+	<!-- database setting for AIX/DB2 server -->
+	<!--
+	<_config:Database type="db2" name="<database name>" user="<user>" password="<password>" server="<server>" port="50000" schema="db2inst1" />
+	-->  
+
+	<_config:IDResolver className="com.ibm.commerce.foundation.dataload.idresolve.IDResolverImpl" cacheSize="10000000" />
+
+	<_config:DataWriter className="com.ibm.commerce.foundation.dataload.datawriter.JDBCDataWriter" />
+
+</_config:DataLoadEnvConfiguration>

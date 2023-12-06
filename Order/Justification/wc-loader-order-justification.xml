@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+	Licensed Materials - Property of HCL Technologies
+	HCL Commerce
+	(C) Copyright HCL Technologies Limited 2023
+ =================================================================
+-->
+<_config:DataloadBusinessObjectConfiguration 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.ibm.com/xmlns/prod/commerce/foundation/config ../../../../xml/config/xsd/wc-dataload-businessobject.xsd" 
+	xmlns:_config="http://www.ibm.com/xmlns/prod/commerce/foundation/config">
+
+	<_config:DataLoader className="com.ibm.commerce.foundation.dataload.BusinessObjectLoader" >
+		<_config:DataReader className="com.ibm.commerce.foundation.dataload.datareader.CSVReader" firstLineIsHeader="true" useHeaderAsColumnName="true" />
+		<_config:BusinessObjectBuilder className="com.ibm.commerce.foundation.dataload.businessobjectbuilder.TableObjectBuilder" >
+
+			<_config:Table name="ORDJUST" deleteKey="Delete" deleteValue="1">
+				<_config:Column name="ORDJUST_ID" value="ORDJUST_ID" valueFrom="IDResolve" >
+					<_config:IDResolve tableName="ORDJUST" generateNewKey="true">
+						<_config:UniqueIndexColumn name="CODE" value="Code" />
+						<_config:UniqueIndexColumn name="STOREENT_ID" value="StoreId" />
+					</_config:IDResolve>
+				</_config:Column>
+				<_config:Column name="CODE" value="Code" />
+				<_config:Column name="STOREENT_ID" value="StoreId" />
+				<_config:Column name="SEQUENCE" value="Sequence" />
+				<_config:Column name="USAGE" value="Usage" />
+				<_config:Column name="MARKFORDELETE" value="MarkForDelete" />
+			</_config:Table>
+
+			<_config:BusinessObjectMediator className="com.ibm.commerce.foundation.dataload.businessobjectmediator.TableObjectMediator" />
+		</_config:BusinessObjectBuilder>
+	</_config:DataLoader>
+
+</_config:DataloadBusinessObjectConfiguration>

@@ -1,0 +1,1 @@
+delete from OFFER  where OFFER_ID>=100000000 and OFFER_ID<200000001;

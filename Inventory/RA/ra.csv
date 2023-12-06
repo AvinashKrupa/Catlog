@@ -1,0 +1,9 @@
+VendorName,CreateTime,OrderDate,ClosedDate,OpenIndicator,ExternalId,Delete
+Madisons Vendor,2005-07-12 01:01:01.123456,2005-06-12 02:02:02.123456,2005-08-08 00:00:00.0,True,Record 1,0
+Madisons Vendor,2008-05-15 04:04:04.0,2008-04-15 00:00:00.0,2008-12-24 09:02:00,False,Record 1,0
+Madisons Vendor,2009-05-21 00:00:00.0,2009-04-21 00:00:00,,,,
+Madisons Vendor,2008-07-05 03:00:04.0,2008-08-05 00:00:00.0,2008-11-24 03:02:00,False,Record 1,0
+Madisons Vendor,2007-06-11 02:04:08.0,2008-03-25 00:00:00.0,2008-12-09 09:13:00,False,Record 1,
+Madisons Vendor,2009-05-28 00:00:00.0,2009-09-21 00:00:00,,,,
+Madisons Vendor,2009-10-24 00:00:00.0,2009-12-21 00:00:00,,,,
+Madisons Vendor,2009-01-20 00:00:00.0,2009-05-21 00:00:00,,,,

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+  HCL Commerce
+  (C) Copyright HCL Technologies Limited 2023
+ =================================================================
+-->
+
+<_config:DataLoadEnvConfiguration
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.ibm.com/xmlns/prod/commerce/foundation/config ../../../xml/config/xsd/wc-dataload-env.xsd"
+	xmlns:_config="http://www.ibm.com/xmlns/prod/commerce/foundation/config">
+
+	<_config:BusinessContext storeIdentifier="AuroraStorefrontAssetStore">
+	</_config:BusinessContext>
+
+	<!-- database setting for DB2 -->
+	<_config:Database type="db2" name="<database name>" user="<user>" password="<password>" server="<server>" port="<port>" schema="<schema>" />
+
+	<!-- database setting for Oracle -->
+	<!--
+	<_config:Database name="<database name>" user="<user>" password="<password>"
+	port="1521" schema="<schema name>" server="<server>" type="Oracle" />
+	-->
+	
+	<_config:IDResolver className="com.ibm.commerce.foundation.dataload.idresolve.IDResolverImpl" cacheSize="0"/>
+	
+	<_config:DataWriter className="com.ibm.commerce.foundation.dataload.datawriter.JDBCDataWriter" />
+
+</_config:DataLoadEnvConfiguration>

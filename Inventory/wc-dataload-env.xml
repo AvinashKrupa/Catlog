@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2023
+
+ =================================================================
+-->
+<_config:DataLoadEnvConfiguration
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.ibm.com/xmlns/prod/commerce/foundation/config ../../../xml/config/xsd/wc-dataload-env.xsd" 
+	xmlns:_config="http://www.ibm.com/xmlns/prod/commerce/foundation/config">
+<!-- 
+	<_config:FilePath boConfigFilePath="../../samples/DataLoad/IntegratedScenario/InitialLoad"
+		    dataInputFilePath="../../samples/DataLoad/IntegratedScenario/InitialLoad" dataOutputFilePath="../../samples/DataLoad/IntegratedScenario/InitialLoad" />
+ -->
+ <!-- 
+	<_config:BusinessContext storeIdentifier="ConsumerDirect" catalogIdentifier="ConsumerDirect" 
+		languageId="-1" currency="USD" />
+  -->
+  
+ 	<!-- Madisons Store in Toolkit --> 
+	<_config:BusinessContext storeIdentifier="AuroraESite" catalogIdentifier="Extended Sites Catalog Asset Store" 
+		languageId="-1" currency="USD">
+		<_config:ContextData name="fulfillmentCenterName">AuroraESite</_config:ContextData>
+	</_config:BusinessContext>
+
+	<_config:Database type="db2" name="mall" user="wcs" password="tI3bqDfcbF+441wDcWzFJtPtAY+wZC7Y2PJL+4H6tiU=" server="localhost" port="50000" schema="WCS" />
+	
+	<_config:IDResolver className="com.ibm.commerce.foundation.dataload.idresolve.IDResolverImpl" cacheSize="10000000"/>
+
+	<_config:DataWriter className="com.ibm.commerce.foundation.dataload.datawriter.JDBCDataWriter" />
+
+</_config:DataLoadEnvConfiguration>

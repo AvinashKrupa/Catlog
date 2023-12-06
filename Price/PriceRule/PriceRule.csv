@@ -1,0 +1,3 @@
+UniqueID,Name,Description, State,Dependency,Type,Version,Field1,Field2,Field3,CreatedTime,LastUpdateTime,Delete
+,PriceRule001,This price rule is just for UT,1,TRUE,1,,Field11,Field22,Field33,,,
+,PriceRule002,This price rule is just for UT,0,FALSE,0,,Field11,Field22,Field33,,,

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+<_config:DataloadBusinessObjectConfiguration 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.ibm.com/xmlns/prod/commerce/foundation/config ../../../../xml/config/xsd/wc-dataload-businessobject.xsd" 
+	xmlns:_config="http://www.ibm.com/xmlns/prod/commerce/foundation/config">
+   <_config:DataLoader className="com.ibm.commerce.foundation.dataload.BusinessObjectLoader" >   
+    <_config:DataReader className="com.ibm.commerce.foundation.dataload.datareader.CSVReader" firstLineIsHeader="true">
+        <_config:Data>
+        	<_config:column number="1" name="PartNumber" />
+	        <_config:column number="2" name="ParentPartNumber" />
+	        <_config:column number="3" name="Type" />
+	        <_config:column number="4" name="INVQuantityMeasure" />
+  			<_config:column number="5" name="INVQuantityMultiple" />
+  			<_config:column number="6" name="TrackingInventory" />
+  			<_config:column number="7" name="BackOrderable" />
+  			<_config:column number="8" name="ReleaseSeparately" />
+  			<_config:column number="9" name="Creditable" />
+  			<_config:column number="10" name="ForceBackorder" />
+  			<_config:column number="11" name="ReturnNotDesired" />
+			<_config:column number="12" name="MinQTYForSplit" />
+			<_config:column number="13" name="PickingMethod" />
+			<_config:column number="14" name="Discontinued" />
+	        <_config:column number="15" name="Delete" />
+	        
+        </_config:Data>
+    </_config:DataReader>
+    <_config:BusinessObjectBuilder className="com.ibm.commerce.foundation.dataload.businessobjectbuilder.BaseBusinessObjectBuilder"
+      packageName="com.ibm.commerce.catalog.facade.datatypes.CatalogPackage" dataObjectType="CatalogEntryType" >
+      <_config:DataMapping>
+        <_config:mapping xpath="" value="Delete" deleteValue="1"/>
+        <_config:mapping xpath="CatalogEntryIdentifier/ExternalIdentifier/PartNumber" value="PartNumber"/>
+        <_config:mapping xpath="ParentCatalogEntryIdentifier/ExternalIdentifier/PartNumber" value="ParentPartNumber"/>
+        <_config:mapping xpath="catalogEntryTypeCode" value="Type"/>        
+        <_config:mapping xpath='FulfillmentProperties/UserData/UserDataField[0]/quantityMeasure' value="INVQuantityMeasure"/>
+        <_config:mapping xpath='FulfillmentProperties/UserData/UserDataField[0]/quantityMultiple' value="INVQuantityMultiple"/>
+        <_config:mapping xpath='FulfillmentProperties/UserData/UserDataField[0]/trackingInventory' value="TrackingInventory"/>
+        <_config:mapping xpath='FulfillmentProperties/UserData/UserDataField[0]/backOrderable' value="BackOrderable"/>
+        <_config:mapping xpath='FulfillmentProperties/UserData/UserDataField[0]/releaseSeparately' value="ReleaseSeparately"/>
+        <_config:mapping xpath='FulfillmentProperties/UserData/UserDataField[0]/creditable' value="Creditable"/>
+        <_config:mapping xpath='FulfillmentProperties/UserData/UserDataField[0]/forceBackorder' value="ForceBackorder"/>
+        <_config:mapping xpath='FulfillmentProperties/UserData/UserDataField[0]/returnNotDesired' value="ReturnNotDesired"/>
+        <_config:mapping xpath='FulfillmentProperties/UserData/UserDataField[0]/minQTYForSplit' value="MinQTYForSplit"/>
+        <_config:mapping xpath='FulfillmentProperties/UserData/UserDataField[0]/pickingMethod' value="PickingMethod"/>
+        <_config:mapping xpath='FulfillmentProperties/UserData/UserDataField[0]/discontinued' value="Discontinued"/>
+        
+      </_config:DataMapping>
+      <_config:BusinessObjectMediator className="com.ibm.commerce.catalog.dataload.mediator.FulfillmentPropertyMediator"
+      	componentId="com.ibm.commerce.catalog" />
+    </_config:BusinessObjectBuilder>
+  </_config:DataLoader>
+
+</_config:DataloadBusinessObjectConfiguration>

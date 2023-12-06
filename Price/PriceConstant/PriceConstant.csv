@@ -1,0 +1,4 @@
+UniqueID,Name,Description, Type,Value,CreatedTime, LastUpdateTime,DefaultCurrency, ValueInDefaultCurrency, ValueInUSD,ValueInBRL,ValueInCAD,ValueInCNY,ValueInEUR,ValueInJPY,ValueInKRW,ValueInTWD,Delete
+,PriceConstant001,This price constant is just for UT,0,23.45,2009-12-12 12:00:00,2009-12-12 12:00:00,
+,PriceConstant002,This price constant is just for UT,1,,2009-12-12 12:00:00,2009-12-12 12:00:00,USD,35.67,,,,67.89,,,,,,
+,PriceConstant003,This price constant is just for UT,1,,2009-12-12 12:00:00,2009-12-12 12:00:00,,,,35.67,,67.89,,,,,,
