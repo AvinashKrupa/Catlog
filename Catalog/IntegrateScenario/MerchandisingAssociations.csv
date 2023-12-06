@@ -1,0 +1,4 @@
+CatalogEntryAssociation,,,,,
+PartNumber,AssociationType,TargetPartNumber,Sequence,Quantity,Delete
+Cords-Black-29W x 28L,CrossSell,Casual shirt-White-Small,1,1,0
+Cords-Black-29W x 28L,UpSell,Classic pleated dress pant-Black-29W x 32L,2,1,0

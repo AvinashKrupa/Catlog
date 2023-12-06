@@ -1,0 +1,4 @@
+CatalogEntry,,,,,,,,,,,,,,,
+PartNumber,Type,ParentPartNumber,Sequence,ParentGroupIdentifier,CurrencyCode,ListPrice,Price,Name,ShortDescription,LongDescription,Thumbnail,FullImage,Color,Size,Delete
+Dress shirt-White-15,Item,Dress shirt,1,Shirts,USD,33,28,Dress shirt-White-15,Dress shirt - White - 15 collar - 32 Sleeve,100% cotton. Dry clean only.,images/catalog/mens_shirts_dresscas_Dkhaki_sm.gif,images/catalog/mens_shirts_dresscas_Dkhaki.gif,White,15,0
+Dress shirt-White-16,Item,Dress shirt,2,Shirts,USD,33,28,Dress shirt-White-16,Dress shirt - White - 16 collar - 35 Sleeve,100% cotton. Dry clean only.,images/catalog/mens_shirts_dresscas_Dkhaki_sm.gif,images/catalog/mens_shirts_dresscas_Dkhaki.gif,White,16,0

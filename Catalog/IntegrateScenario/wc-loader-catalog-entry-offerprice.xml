@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+<_config:DataloadBusinessObjectConfiguration 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.ibm.com/xmlns/prod/commerce/foundation/config ../../../../xml/config/xsd/wc-dataload-businessobject.xsd" 
+	xmlns:_config="http://www.ibm.com/xmlns/prod/commerce/foundation/config">
+   <_config:DataLoader className="com.ibm.commerce.foundation.dataload.BusinessObjectLoader" >   
+    <_config:DataReader className="com.ibm.commerce.foundation.dataload.datareader.CSVReader" firstLineIsHeader="true" useHeaderAsColumnName="true">
+      <_config:property name="keyColumns" value="PartNumber" />
+    </_config:DataReader>
+    
+    <_config:BusinessObjectBuilder className="com.ibm.commerce.foundation.dataload.businessobjectbuilder.BaseBusinessObjectBuilder"
+	      packageName="com.ibm.commerce.price.facade.datatypes.PricePackage" dataObjectType="PriceListType" >
+      <_config:DataMapping>
+        <_config:mapping xpath="PriceEntry[0]/CatalogEntryIdentifier/UniqueID" value="CatalogEntryUniqueId" />
+        <_config:mapping xpath="PriceEntry[0]/CatalogEntryIdentifier/ExternalIdentifier/PartNumber" value="PartNumber" />
+        <_config:mapping xpath="PriceEntry[0]/Price/Price/value" value="Price" />
+        <_config:mapping xpath="PriceEntry[0]/Price/Price/currency" value="CurrencyCode" />
+        <_config:mapping xpath="PriceEntry[0]/startDate" value="StartDate" />
+        <_config:mapping xpath="PriceEntry[0]/endDate" value="EndDate" />
+      	<_config:mapping xpath="" value="Delete" deleteValue="1"/>
+        
+      </_config:DataMapping>
+      <_config:BusinessObjectMediator className="com.ibm.commerce.price.dataload.mediator.DefaultOfferMediator" componentId="com.ibm.commerce.price" />
+    </_config:BusinessObjectBuilder>
+    
+  </_config:DataLoader>
+
+</_config:DataloadBusinessObjectConfiguration>

@@ -1,0 +1,5 @@
+CatalogEntry,,,,,,,,,,,
+PartNumber,Type,ParentPartNumber,Sequence,ParentGroupIdentifier,Hide,Name,ShortDescription,LongDescription,VariantAttribute_Identifier,VariantAttributeValue_Identifier,Delete
+Cords-Black,Variant,Cords,1,Pants,1,Men's corduroy pants - Black,Men's corduroy pants - Black,"Fabric 50% cotton, 50% polyester.",CordsColor,Black,0
+Cords-Blue,Variant,Cords,2,Pants,,Men's corduroy pants - Blue,Men's corduroy pants - Blue,"Fabric 50% cotton, 50% polyester.",CordsColor,Blue,0
+Cords-29W x 28L,Variant,Cords,3,Pants,,Men's corduroy pants - 29W x 28L,Men's corduroy pants - 29 Width x 28 Length,"Fabric 50% cotton, 50% polyester.",CordsSize,29W x 28L,0

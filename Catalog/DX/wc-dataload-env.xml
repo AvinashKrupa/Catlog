@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of IBM
+
+  WebSphere Commerce
+
+  (C) Copyright IBM Corp. 2009 All Rights Reserved.
+
+  US Government Users Restricted Rights - Use, duplication or
+  disclosure restricted by GSA ADP Schedule Contract with
+  IBM Corp.
+ =================================================================
+-->
+<_config:DataLoadEnvConfiguration
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.ibm.com/xmlns/prod/commerce/foundation/config ../../../xml/config/xsd/wc-dataload-env.xsd" 
+	xmlns:_config="http://www.ibm.com/xmlns/prod/commerce/foundation/config">
+	<_config:BusinessContext storeIdentifier="Emerald" catalogIdentifier="EmeraldCAS" languageId="-1" currency="USD">
+
+	</_config:BusinessContext>
+
+	<!-- database setting for DB2 -->	
+	<_config:Database type="db2" name="mall" user="wcs" password="tI3bqDfcbF+441wDcWzFJtPtAY+wZC7Y2PJL+4H6tiU=" server="localhost" port="50000" schema="WCS" />
+		
+	<_config:IDResolver className="com.ibm.commerce.foundation.dataload.idresolve.IDResolverImpl" cacheSize="10000000"/>
+
+	<_config:DataWriter className="com.ibm.commerce.foundation.dataload.datawriter.JDBCDataWriter" />
+
+</_config:DataLoadEnvConfiguration>

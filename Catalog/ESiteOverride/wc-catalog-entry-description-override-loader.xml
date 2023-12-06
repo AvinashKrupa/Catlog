@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+<_config:DataloadBusinessObjectConfiguration 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.ibm.com/xmlns/prod/commerce/foundation/config ../../../../xml/config/xsd/wc-dataload-businessobject.xsd" 
+	xmlns:_config="http://www.ibm.com/xmlns/prod/commerce/foundation/config">
+
+
+
+  <_config:DataLoader className="com.ibm.commerce.foundation.dataload.BusinessObjectLoader" >
+    <_config:DataReader className="com.ibm.commerce.foundation.dataload.datareader.CSVReader"
+          firstLineIsHeader="true" useHeaderAsColumnName="true" >
+        <_config:property name="keyColumns" value="PartNumber,LanguageId" />
+    </_config:DataReader>
+    <_config:BusinessObjectBuilder className="com.ibm.commerce.foundation.dataload.businessobjectbuilder.BaseBusinessObjectBuilder"
+      packageName="com.ibm.commerce.catalog.facade.datatypes.CatalogPackage" dataObjectType="CatalogEntryType" >
+    
+      <_config:DataMapping>
+		<_config:mapping xpath="CatalogEntryIdentifier/UniqueID" value="CatalogEntryUniqueId" />      
+        <_config:mapping xpath="CatalogEntryIdentifier/ExternalIdentifier/PartNumber" value="PartNumber" />
+       	<_config:mapping xpath="Description[0]/language" value="LanguageId" />        
+       	<_config:mapping xpath="Description[0]/Override[0]/Name" value="Name"  />
+        <_config:mapping xpath="Description[0]/Override[0]/ShortDescription" value="ShortDescription"   />
+        <_config:mapping xpath="Description[0]/Override[0]/LongDescription" value="LongDescription"   />
+        <_config:mapping xpath="Description[0]/Override[0]/Thumbnail" value="Thumbnail"   />
+        <_config:mapping xpath="Description[0]/Override[0]/Attributes/auxDescription1" value="AuxDescription1"   />
+        <_config:mapping xpath="Description[0]/Override[0]/FullImage" value="FullImage"   />       
+        <_config:mapping xpath="Description[0]/Override[0]/Attributes/auxDescription2" value="AuxDescription2"   /> 
+        <_config:mapping xpath="Description[0]/Override[0]/Attributes/published" value="Published"   />
+        <_config:mapping xpath="Description[0]/Override[0]/Attributes/field1" value="Field1"   />
+        <_config:mapping xpath="Description[0]/Override[0]/Attributes/field2" value="Field2"   />
+        <_config:mapping xpath="Description[0]/Override[0]/Attributes/field3" value="Field3"   />        
+        <_config:mapping xpath="Description[0]/Override[0]/Keyword" value="Keyword"  />
+        
+        <!--  SEO fields -->
+        <!-- The usage -->
+        <_config:mapping xpath="SEOURL/Usage" value="CatalogEntry" valueFrom="Fixed" />
+        <!-- The URL keyword -->
+        <_config:mapping xpath="SEOURL/URLKeyword/Keyword" value="URLKeyword" />
+        <!-- The URL keyword language -->
+        <_config:mapping xpath="SEOURL/URLKeyword/language" value="LanguageId" />
+        <!-- The page title -->
+        <_config:mapping xpath="SEOProperties/Title" value="PageTitle" />
+        <!-- The meta description -->
+        <_config:mapping xpath="SEOProperties/MetaDescription" value="MetaDescription" />
+        <!-- The image alt text -->
+        <_config:mapping xpath="SEOProperties/FullImageAltDescription" value="ImageAltText" />
+        <!-- The page language id -->
+        <_config:mapping xpath="SEOProperties/language" value="LanguageId" />
+	
+        <_config:mapping xpath="" value="Delete"   deleteValue="1"/>
+      </_config:DataMapping>
+      <_config:BusinessObjectMediator className="com.ibm.commerce.catalog.dataload.mediator.CatalogEntryDescriptionOverrideMediator"
+      	componentId="com.ibm.commerce.catalog" />
+      	
+     </_config:BusinessObjectBuilder>
+
+    <!--  Catalog Entry Search Index -->
+    <_config:BusinessObjectBuilder className="com.ibm.commerce.foundation.dataload.businessobjectbuilder.BaseBusinessObjectBuilder"
+      packageName="com.ibm.commerce.catalog.facade.datatypes.CatalogPackage" dataObjectType="CatalogEntryType" >
+
+      <_config:DataMapping>
+        <!-- The unique reference number of the catalog entry -->
+        <_config:mapping xpath="CatalogEntryIdentifier/UniqueID" value="CatalogEntryUniqueId" />
+        <!-- The part number of the catalog entry -->
+        <_config:mapping xpath="CatalogEntryIdentifier/ExternalIdentifier/PartNumber" value="PartNumber" />
+        
+      </_config:DataMapping>
+      <_config:BusinessObjectMediator className="com.ibm.commerce.catalog.dataload.mediator.CatalogEntrySearchIndexMediator" componentId="com.ibm.commerce.catalog" >
+      </_config:BusinessObjectMediator>
+    </_config:BusinessObjectBuilder>
+    
+  </_config:DataLoader>  
+
+
+
+
+</_config:DataloadBusinessObjectConfiguration>

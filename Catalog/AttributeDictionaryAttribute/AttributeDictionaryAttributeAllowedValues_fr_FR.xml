@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+<LoadItems loadItemName="AttributeDictionaryAttributeAllowedValues">
+	<LoadItem Sequence="1.0" Delete="0">
+		<Identifier>CordsColor</Identifier>
+		<ValueIdentifier>Black</ValueIdentifier>
+		<Value LanguageId="-1">Black</Value>
+	</LoadItem>
+	<LoadItem Sequence="1.0">
+		<Identifier>CordsColor</Identifier>
+		<ValueIdentifier>Black</ValueIdentifier>
+		<Value LanguageId="-2">Noir</Value>
+	</LoadItem>
+	<LoadItem Sequence="2.0">
+		<Identifier>CordsColor</Identifier>
+		<ValueIdentifier>Brown</ValueIdentifier>
+		<Value LanguageId="-1">Brown</Value>
+	</LoadItem>
+	<LoadItem Sequence="2.0">
+		<Identifier>CordsColor</Identifier>
+		<ValueIdentifier>Brown</ValueIdentifier>
+		<Value LanguageId="-2">Marron</Value>
+	</LoadItem>
+	<LoadItem Sequence="1.0">
+		<Identifier>CordsSize</Identifier>
+		<ValueIdentifier>29W x 28L</ValueIdentifier>
+		<Value LanguageId="-1">29W x 28L</Value>
+	</LoadItem>
+	<LoadItem Sequence="1.0">
+		<Identifier>CordsSize</Identifier>
+		<ValueIdentifier>29W x 28L</ValueIdentifier>
+		<Value LanguageId="-2">29W x 28L</Value>
+	</LoadItem>
+	<LoadItem Sequence="2.0">
+		<Identifier>CordsSize</Identifier>
+		<ValueIdentifier>30W x 32L</ValueIdentifier>
+		<Value LanguageId="-1">30W x 32L</Value>
+	</LoadItem>
+	<LoadItem Sequence="2.0">
+		<Identifier>CordsSize</Identifier>
+		<ValueIdentifier>30W x 32L</ValueIdentifier>
+		<Value LanguageId="-2">30W x 32L</Value>
+	</LoadItem>
+	<LoadItem Sequence="3.0">
+		<Identifier>CordsSize</Identifier>
+		<ValueIdentifier>34W x 30L</ValueIdentifier>
+		<Value LanguageId="-1">34W x 30L</Value>
+	</LoadItem>
+	<LoadItem Sequence="3.0">
+		<Identifier>CordsSize</Identifier>
+		<ValueIdentifier>34W x 30L</ValueIdentifier>
+		<Value LanguageId="-2">34W x 30L</Value>
+	</LoadItem>
+	<LoadItem Sequence="1.0">
+		<Identifier>DressPantColor</Identifier>
+		<ValueIdentifier>Black</ValueIdentifier>
+		<Value LanguageId="-1">Black</Value>
+	</LoadItem>
+	<LoadItem Sequence="1.0">
+		<Identifier>DressPantColor</Identifier>
+		<ValueIdentifier>Black</ValueIdentifier>
+		<Value LanguageId="-2">Noir</Value>
+	</LoadItem>
+	<LoadItem Sequence="2.0">
+		<Identifier>DressPantColor</Identifier>
+		<ValueIdentifier>Blue</ValueIdentifier>
+		<Value LanguageId="-1">Blue</Value>
+	</LoadItem>
+	<LoadItem Sequence="2.0">
+		<Identifier>DressPantColor</Identifier>
+		<ValueIdentifier>Blue</ValueIdentifier>
+		<Value LanguageId="-2">Bleu</Value>
+	</LoadItem>
+	<LoadItem Sequence="1.0">
+		<Identifier>DressPantSize</Identifier>
+		<ValueIdentifier>29W x 32L</ValueIdentifier>
+		<Value LanguageId="-1">29W x 32L</Value>
+	</LoadItem>
+	<LoadItem Sequence="1.0">
+		<Identifier>DressPantSize</Identifier>
+		<ValueIdentifier>29W x 32L</ValueIdentifier>
+		<Value LanguageId="-2">29W x 32L</Value>
+	</LoadItem>
+	<LoadItem Sequence="2.0">
+		<Identifier>DressPantSize</Identifier>
+		<ValueIdentifier>32W x 32L</ValueIdentifier>
+		<Value LanguageId="-1">32W x 32L</Value>
+	</LoadItem>
+	<LoadItem Sequence="2.0">
+		<Identifier>DressPantSize</Identifier>
+		<ValueIdentifier>32W x 32L</ValueIdentifier>
+		<Value LanguageId="-2">32W x 32L</Value>
+	</LoadItem>
+	<LoadItem Sequence="1.0">
+		<Identifier>DressShirtColor</Identifier>
+		<ValueIdentifier>White</ValueIdentifier>
+		<Value LanguageId="-1">White</Value>
+	</LoadItem>
+	<LoadItem Sequence="1.0">
+		<Identifier>DressShirtColor</Identifier>
+		<ValueIdentifier>White</ValueIdentifier>
+		<Value LanguageId="-2">Blanc</Value>
+	</LoadItem>
+	<LoadItem Sequence="1.0">
+		<Identifier>DressShirtSize</Identifier>
+		<ValueIdentifier>15</ValueIdentifier>
+		<Value LanguageId="-1">15</Value>
+	</LoadItem>
+	<LoadItem Sequence="1.0">
+		<Identifier>DressShirtSize</Identifier>
+		<ValueIdentifier>15</ValueIdentifier>
+		<Value LanguageId="-2">15</Value>
+	</LoadItem>
+	<LoadItem Sequence="2.0">
+		<Identifier>DressShirtSize</Identifier>
+		<ValueIdentifier>16</ValueIdentifier>
+		<Value LanguageId="-1">16</Value>
+	</LoadItem>
+	<LoadItem Sequence="2.0">
+		<Identifier>DressShirtSize</Identifier>
+		<ValueIdentifier>16</ValueIdentifier>
+		<Value LanguageId="-2">16</Value>
+	</LoadItem>
+	<LoadItem Sequence="3.0">
+		<Identifier>DressShirtSize</Identifier>
+		<ValueIdentifier>17</ValueIdentifier>
+		<Value LanguageId="-1">17</Value>
+	</LoadItem>
+	<LoadItem Sequence="3.0">
+		<Identifier>DressShirtSize</Identifier>
+		<ValueIdentifier>17</ValueIdentifier>
+		<Value LanguageId="-2">17</Value>
+	</LoadItem>
+	<LoadItem Sequence="1.0">
+		<Identifier>CasualShirtColor</Identifier>
+		<ValueIdentifier>White</ValueIdentifier>
+		<Value LanguageId="-1">White</Value>
+	</LoadItem>
+	<LoadItem Sequence="1.0">
+		<Identifier>CasualShirtColor</Identifier>
+		<ValueIdentifier>White</ValueIdentifier>
+		<Value LanguageId="-2">Blanc</Value>
+	</LoadItem>
+	<LoadItem Sequence="2.0">
+		<Identifier>CasualShirtColor</Identifier>
+		<ValueIdentifier>Blue</ValueIdentifier>
+		<Value LanguageId="-1">Blue</Value>
+	</LoadItem>
+	<LoadItem Sequence="2.0">
+		<Identifier>CasualShirtColor</Identifier>
+		<ValueIdentifier>Blue</ValueIdentifier>
+		<Value LanguageId="-2">Bleu</Value>
+	</LoadItem>
+	<LoadItem Sequence="3.0">
+		<Identifier>CasualShirtColor</Identifier>
+		<ValueIdentifier>Pink</ValueIdentifier>
+		<Value LanguageId="-1">Pink</Value>
+	</LoadItem>
+	<LoadItem Sequence="3.0">
+		<Identifier>CasualShirtColor</Identifier>
+		<ValueIdentifier>Pink</ValueIdentifier>
+		<Value LanguageId="-2">Rose</Value>
+	</LoadItem>
+	<LoadItem Sequence="4.0">
+		<Identifier>CasualShirtColor</Identifier>
+		<ValueIdentifier>Purple</ValueIdentifier>
+		<Value LanguageId="-1">Purple</Value>
+	</LoadItem>
+	<LoadItem Sequence="4.0">
+		<Identifier>CasualShirtColor</Identifier>
+		<ValueIdentifier>Purple</ValueIdentifier>
+		<Value LanguageId="-2">Violet</Value>
+	</LoadItem>
+	<LoadItem Sequence="1.0">
+		<Identifier>CasualShirtSize</Identifier>
+		<ValueIdentifier>Small</ValueIdentifier>
+		<Value LanguageId="-1">Small</Value>
+	</LoadItem>
+	<LoadItem Sequence="1.0">
+		<Identifier>CasualShirtSize</Identifier>
+		<ValueIdentifier>Small</ValueIdentifier>
+		<Value LanguageId="-2">Petit</Value>
+	</LoadItem>
+	<LoadItem Sequence="2.0">
+		<Identifier>CasualShirtSize</Identifier>
+		<ValueIdentifier>Medium</ValueIdentifier>
+		<Value LanguageId="-1">Medium</Value>
+	</LoadItem>
+	<LoadItem Sequence="2.0">
+		<Identifier>CasualShirtSize</Identifier>
+		<ValueIdentifier>Medium</ValueIdentifier>
+		<Value LanguageId="-2">Medium</Value>
+	</LoadItem>
+	<LoadItem Sequence="3.0">
+		<Identifier>CasualShirtSize</Identifier>
+		<ValueIdentifier>Large</ValueIdentifier>
+		<Value LanguageId="-1">Large</Value>
+	</LoadItem>
+	<LoadItem Sequence="3.0">
+		<Identifier>CasualShirtSize</Identifier>
+		<ValueIdentifier>Large</ValueIdentifier>
+		<Value LanguageId="-2">Grand</Value>
+	</LoadItem>
+	<LoadItem Sequence="1.0">
+		<Identifier>BodysuitColor</Identifier>
+		<ValueIdentifier>Black</ValueIdentifier>
+		<Value LanguageId="-1">Black</Value>
+	</LoadItem>
+	<LoadItem Sequence="1.0">
+		<Identifier>BodysuitColor</Identifier>
+		<ValueIdentifier>Black</ValueIdentifier>
+		<Value LanguageId="-2">Noir</Value>
+	</LoadItem>
+	<LoadItem Sequence="1.0">
+		<Identifier>BodysuitSize</Identifier>
+		<ValueIdentifier>Petit</ValueIdentifier>
+		<Value LanguageId="-1">Petit</Value>
+	</LoadItem>
+	<LoadItem Sequence="1.0">
+		<Identifier>BodysuitSize</Identifier>
+		<ValueIdentifier>Petit</ValueIdentifier>
+		<Value LanguageId="-2">Petit</Value>
+	</LoadItem>
+</LoadItems>

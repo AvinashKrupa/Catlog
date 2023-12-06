@@ -1,0 +1,12 @@
+ProductDefiningAttribute_fr_FR,,,,,,
+PartNumber,Type,EnglishName,EnglishSequence,FrenchName,FrenchSequence,Delete
+Dress shirt,STRING,Color,1,Couleur,1,
+Dress shirt,INTEGER,Size,2,Taille,2,
+Cords,STRING,Color,1,Couleur,1,
+Cords,STRING,Size,2,Taille,2,
+Classic pleated dress pant,STRING,Color,1,Couleur,1,
+Classic pleated dress pant,STRING,Size,2,Taille,2,
+Casual shirt,STRING,Color,1,Couleur,1,
+Casual shirt,STRING,Size,2,Taille,2,
+Bodysuit,STRING,Color,1,Couleur,1,
+Bodysuit,STRING,Size,2,Taille,2,

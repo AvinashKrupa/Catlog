@@ -1,0 +1,3 @@
+CatalogEntry,,,,,,,,,,,,,,,
+PartNumber,Type,ParentPartNumber,Sequence,ParentGroupIdentifier,CurrencyCode,ListPrice,Price,Name,ShortDescription,LongDescription,Thumbnail,FullImage,Color,Size,Delete
+Classic pleated dress pant-Black-29W x 32L,Item,Classic pleated dress pant,1,Pants,USD,40,35,Classic pleated dress pants - Black-29W x 32L,Classic pleated dress pants - Black 29 Width x 32 Length,"Fabric 95% cotton, 5% spandex.",images/catalog/mens_pants_dress_sm.gif,images/catalog/mens_pants_dress.gif,Black,29W x 32L,0

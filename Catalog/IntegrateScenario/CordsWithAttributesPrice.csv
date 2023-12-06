@@ -1,0 +1,4 @@
+CatalogEntry,,,,,,,,,,,,,,,,,
+PartNumber,Type,ParentPartNumber,Sequence,ParentGroupIdentifier,CurrencyCode,ListPrice,Price,Name,ShortDescription,LongDescription,Thumbnail,FullImage,SalesTaxCalculationCode,ShippingTaxCalculationCode,Color,Size,Delete
+Cords-Black-29W x 28L,Item,Cords,1,Pants,USD,30,25,Men's corduroy pants - Black 29W x 28L,Men's corduroy pants - Black 29 Width x 28 Length,"Fabric 50% cotton, 50% polyester.",images/catalog/mens_pants_cords_sm.gif,images/catalog/mens_pants_cords.gif,Default,Shipping Tax,Black,29W x 28L,0
+Cords-Brown-29W x 28L,Item,Cords,2,Pants,USD,30,25,Men's corduroy pants - Brown 29W x 28L,Men's corduroy pants - Brown 29 Width x 28 Length,"Fabric 50% cotton, 50% polyester.",images/catalog/mens_pants_cords_sm.gif,images/catalog/mens_pants_cords.gif,Default,,Brown,29W x 28L,0

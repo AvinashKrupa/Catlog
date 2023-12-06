@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+<_config:DataLoadEnvConfiguration
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.ibm.com/xmlns/prod/commerce/foundation/config ../../../xml/config/xsd/wc-dataload-env.xsd" 
+	xmlns:_config="http://www.ibm.com/xmlns/prod/commerce/foundation/config">
+ 	<!-- Madisons Store in Toolkit -->
+	<_config:BusinessContext storeIdentifier="AuroraESite" catalogIdentifier="Extended Sites Catalog Asset Store" 
+		languageId="-1" currency="USD">
+
+	</_config:BusinessContext>
+
+	<!-- database setting for derby in Toolkit -->
+	<_config:Database type="derby" name="..\db\mall" schema="APP"/>
+
+	<!-- database setting for Oracle -->	
+	<!-- 
+	<_config:Database name="<database name>" user="<user>" password="<password>"
+		port="1521" schema="<schema name>" server="<server>" type="Oracle" />
+	 -->	
+	
+	 <!-- database setting for AIX/DB2 server -->
+	<!--
+	<_config:Database type="db2" name="inst1db" user="db2admin" password="m2zFWZGIt2KzuRcT6YvptQ==" server="localhost" port="50000" schema="db2admin" />
+	-->	
+		
+	<_config:IDResolver className="com.ibm.commerce.foundation.dataload.idresolve.IDResolverImpl" cacheSize="0"/>
+
+	<_config:DataWriter className="com.ibm.commerce.foundation.dataload.datawriter.JDBCDataWriter" />
+
+</_config:DataLoadEnvConfiguration>

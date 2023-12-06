@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+<LoadItems loadItemName="AttributeDictionaryAttributeAndAllowedValues">
+	<LoadItem Sequence="1.0" Delete="0">
+		<Identifier>CordsColor</Identifier>
+		<Type>STRING</Type>
+		<AttributeType>AllowedValues</AttributeType>
+		<Displayable>true</Displayable>
+		<Comparable>true</Comparable>
+		<StoreDisplay>0</StoreDisplay>
+		<Name>Color</Name>
+		<AllowedValues>
+			<AllowedValue1>Black</AllowedValue1>
+			<AllowedValue2>Brown</AllowedValue2>
+			<AllowedValue3>Blue</AllowedValue3>
+		</AllowedValues>
+	</LoadItem>
+	<LoadItem Sequence="2.0">
+		<Identifier>CordsSize</Identifier>
+		<Type>STRING</Type>
+		<AttributeType>AllowedValues</AttributeType>
+		<Displayable>true</Displayable>
+		<Comparable>true</Comparable>
+		<StoreDisplay>0</StoreDisplay>
+		<Name>Size</Name>
+		<AllowedValues>
+			<AllowedValue1>29W x 28L</AllowedValue1>
+			<AllowedValue2>30W x 32L</AllowedValue2>
+			<AllowedValue3>34W x 30L</AllowedValue3>
+		</AllowedValues>
+	</LoadItem>
+	<LoadItem Sequence="3.0">
+		<Identifier>DressPantColor</Identifier>
+		<Type>STRING</Type>
+		<AttributeType>AllowedValues</AttributeType>
+		<Displayable>true</Displayable>
+		<Comparable>true</Comparable>
+		<StoreDisplay>0</StoreDisplay>
+		<Name>Color</Name>
+		<AllowedValues>
+			<AllowedValue1>Black</AllowedValue1>
+			<AllowedValue2>Blue</AllowedValue2>
+		</AllowedValues>
+	</LoadItem>
+	<LoadItem Sequence="4.0">
+		<Identifier>DressPantSize</Identifier>
+		<Type>STRING</Type>
+		<AttributeType>AllowedValues</AttributeType>
+		<Displayable>true</Displayable>
+		<Comparable>true</Comparable>
+		<StoreDisplay>0</StoreDisplay>
+		<Name>Size</Name>
+		<AllowedValues>
+			<AllowedValue1>29W x 32L</AllowedValue1>
+			<AllowedValue2>32W x 32L</AllowedValue2>
+		</AllowedValues>
+	</LoadItem>
+	<LoadItem Sequence="5.0">
+		<Identifier>DressShirtColor</Identifier>
+		<Type>STRING</Type>
+		<AttributeType>AllowedValues</AttributeType>
+		<Displayable>true</Displayable>
+		<Comparable>true</Comparable>
+		<StoreDisplay>0</StoreDisplay>
+		<Name>Color</Name>
+		<AllowedValues>
+			<AllowedValue1>White</AllowedValue1>
+		</AllowedValues>
+	</LoadItem>
+	<LoadItem Sequence="6.0">
+		<Identifier>DressShirtSize</Identifier>
+		<Type>INTEGER</Type>
+		<AttributeType>AllowedValues</AttributeType>
+		<Displayable>true</Displayable>
+		<Comparable>true</Comparable>
+		<StoreDisplay>0</StoreDisplay>
+		<Name>Size</Name>
+		<AllowedValues>
+			<AllowedValue1>15</AllowedValue1>
+			<AllowedValue2>16</AllowedValue2>
+			<AllowedValue3>17</AllowedValue3>
+		</AllowedValues>
+	</LoadItem>
+	<LoadItem Sequence="7.0">
+		<Identifier>CasualShirtColor</Identifier>
+		<Type>STRING</Type>
+		<AttributeType>AllowedValues</AttributeType>
+		<Displayable>true</Displayable>
+		<Comparable>true</Comparable>
+		<StoreDisplay>0</StoreDisplay>
+		<Name>Color</Name>
+		<AllowedValues>
+			<AllowedValue1>White</AllowedValue1>
+			<AllowedValue2>Blue</AllowedValue2>
+			<AllowedValue3>Pink</AllowedValue3>
+			<AllowedValue4>Purple</AllowedValue4>
+		</AllowedValues>
+	</LoadItem>
+	<LoadItem Sequence="8.0">
+		<Identifier>CasualShirtSize</Identifier>
+		<Type>STRING</Type>
+		<AttributeType>AllowedValues</AttributeType>
+		<Displayable>true</Displayable>
+		<Comparable>true</Comparable>
+		<StoreDisplay>0</StoreDisplay>
+		<Name>Size</Name>
+		<AllowedValues>
+			<AllowedValue1>Small</AllowedValue1>
+			<AllowedValue2>Medium</AllowedValue2>
+			<AllowedValue3>Large</AllowedValue3>
+		</AllowedValues>
+	</LoadItem>
+	<LoadItem Sequence="9.0">
+		<Identifier>BodysuitColor</Identifier>
+		<Type>STRING</Type>
+		<AttributeType>AllowedValues</AttributeType>
+		<Displayable>true</Displayable>
+		<Comparable>true</Comparable>
+		<StoreDisplay>0</StoreDisplay>
+		<Name>Color</Name>
+		<AllowedValues>
+			<AllowedValue1>Black</AllowedValue1>
+		</AllowedValues>
+	</LoadItem>
+	<LoadItem Sequence="10.0">
+		<Identifier>BodysuitSize</Identifier>
+		<Type>STRING</Type>
+		<AttributeType>AllowedValues</AttributeType>
+		<Displayable>true</Displayable>
+		<Comparable>true</Comparable>
+		<StoreDisplay>0</StoreDisplay>
+		<Name>Size</Name>
+		<AllowedValues>
+			<AllowedValue1>Petit</AllowedValue1>
+		</AllowedValues>
+	</LoadItem>
+	<LoadItem Sequence="11.0">
+		<Identifier>Style</Identifier>
+		<Type>STRING</Type>
+		<AttributeType>AssignedValues</AttributeType>
+		<Displayable>true</Displayable>
+		<Comparable>true</Comparable>
+		<StoreDisplay>0</StoreDisplay>
+		<Name>Style</Name>
+	</LoadItem>
+</LoadItems>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+<_config:DataloadBusinessObjectConfiguration
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.ibm.com/xmlns/prod/commerce/foundation/config ../../../../xml/config/xsd/wc-dataload-businessobject.xsd"
+  xmlns:_config="http://www.ibm.com/xmlns/prod/commerce/foundation/config">
+
+  <_config:DataLoader className="com.ibm.commerce.foundation.dataload.BusinessObjectLoader" >
+    <_config:DataReader className="com.ibm.commerce.foundation.dataload.datareader.CSVReader" useHeaderAsColumnName="true" />
+
+    <!-- External Content Creation on WCH -->
+    <_config:BusinessObjectBuilder className="com.ibm.commerce.foundation.dataload.businessobjectbuilder.MapObjectBuilder">
+      <_config:DataMapping>
+        <_config:mapping xpath="partnumber" value="PartNumber" />
+        <_config:mapping xpath="main_thumbnail" value="Thumbnail" />
+        <_config:mapping xpath="attribute_identifier" value="AttributeIdentifier" />
+        <_config:mapping xpath="beige" value="beige" />
+        <_config:mapping xpath="black" value="black" />
+        <_config:mapping xpath="blue" value="blue" />
+        <_config:mapping xpath="brown" value="brown" />
+        <_config:mapping xpath="darkblue" value="darkblue" />
+        <_config:mapping xpath="gold" value="gold" />
+        <_config:mapping xpath="gray" value="gray" />
+        <_config:mapping xpath="green" value="green" />
+        <_config:mapping xpath="lightblue" value="lightblue" />
+        <_config:mapping xpath="orange" value="orange" />
+        <_config:mapping xpath="pink" value="pink" />
+        <_config:mapping xpath="purple" value="purple" />
+        <_config:mapping xpath="red" value="red" />
+        <_config:mapping xpath="silver" value="silver" />
+        <_config:mapping xpath="teal" value="teal" />
+        <_config:mapping xpath="white" value="white" />
+        <_config:mapping xpath="yellow" value="yellow" />
+      </_config:DataMapping>
+
+      <_config:BusinessObjectMediator className="com.ibm.commerce.catalog.dataload.mediator.SwatchContentCreationMediator" componentId="com.ibm.commerce.catalog">
+        <_config:property name="batchSize" value="100" />
+        <_config:property name="requiredKeys" value="partnumber,attribute_identifier" />
+        <_config:property name="uniqueKey" value="partnumber" />
+        <_config:property name="contentTypeId" value="com.ibm.commerce.content.type.swatchcolor" />
+        <_config:property name="contentCacheKeys" value="main_thumbnail,beige,black,blue,brown,darkblue,gold,gray,green,lightblue,orange,pink,purple,red,silver,teal,white,yellow" />
+      </_config:BusinessObjectMediator>
+    </_config:BusinessObjectBuilder>
+  </_config:DataLoader>
+
+</_config:DataloadBusinessObjectConfiguration>

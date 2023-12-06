@@ -1,0 +1,15 @@
+CatalogEntryATPInventory,,,,,,,,,,,,,,
+PartNumber,ParentPartNumber,Type,INVQuantityMeasure,INVQuantityMultiple,TrackingInventory,BackOrderable,ReleaseSeparately,Creditable,ForceBackorder,ReturnNotDesired,MinQTYForSplit,PickingMethod,Discontinued,Delete
+Cords,,ProductBean,C62,1,Y,N,Y,Y,N,N,0,F,,
+Cords-Black-29W x 28L,Cords,ItemBean,,,,,,,,,,,N,0
+Cords-Brown-29W x 28L,Cords,ItemBean,,,,,,,,,,,N,0
+Classic pleated dress pant,,ProductBean,C62,1,Y,Y,N,Y,N,N,0,F,,
+Classic pleated dress pant-Black-29W x 32L,Classic pleated dress pant,ItemBean,,,,,,,,,,,N,0
+Dress shirt,,ProductBean,C62,1,Y,Y,N,Y,N,N,0,F,,
+Dress shirt-White-15,Dress shirt,Item,,,,,,,,,,,N,0
+Dress shirt-White-16,Dress shirt,Item,,,,,,,,,,,N,0
+Casual shirt,,Product,C62,1,Y,Y,N,Y,N,N,0,F,,
+Casual shirt-White-Small,Casual shirt,Item,,,,,,,,,,,N,0
+Casual shirt-Blue-Medium,Casual shirt,Item,,,,,,,,,,,N,0
+Bodysuit,,Product,C62,1,Y,Y,N,Y,N,N,0,F,,
+Bodysuit-Black-Petit,Bodysuit,Item,,,,,,,,,,,N,0

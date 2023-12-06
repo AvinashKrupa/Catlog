@@ -1,0 +1,4 @@
+ProductDefiningAttributeAndAllowedValues,,,,,,,,,
+PartNumber,Type,Name,Sequence,AllowedValue1,AllowedValue2,AllowedValue3,AllowedValue4,AllowedValue5,Delete
+Casual shirt,STRING,Color,1,,,Pink,Purple,,1
+Casual shirt,STRING,Size,2,,,,,,1

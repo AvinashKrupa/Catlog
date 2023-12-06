@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+
+<KitBundle loadItemName="CatalogEntry">
+
+  <CatalogEntry Type="Bundle" Sequence="7" Delete="0">
+    <PartNumber>Gift Set-Shirt-Pant</PartNumber>
+    <ParentGroupIdentifier>Mens Fashions</ParentGroupIdentifier>
+    <Description>
+      <Name>Father's day shirt and pant gift set</Name>
+      <ShortDescription>Elimate the need to find the match for your dad.  This shirt and pant comes packed in durable box as great gift idea.</ShortDescription>
+      <LongDescription>Elimate the need to find the match for your dad.  This shirt and pant comes packed in durable box as great gift idea.  </LongDescription>
+    </Description>
+  </CatalogEntry>
+
+  <CatalogEntry Type="Package" Sequence="8" Delete="0">
+    <PartNumber>Gift Set-Pants</PartNumber>
+    <ParentGroupIdentifier>Mens Fashions</ParentGroupIdentifier>
+    <Prices CurrencyCode="USD">
+      <ListPrice>75</ListPrice>
+      <Price>75</Price>
+    </Prices>
+    <Description>
+      <Name>Father's day pants gift set</Name>
+      <ShortDescription>This gift set contains our most popular dress pant and causal pant so that your dad can wear them in different occation.  Both pants come packed in durable box as great gift idea.</ShortDescription>
+      <LongDescription>This gift set contains our most popular dress pant and causal pant so that your dad can wear them in different occation.  Both pants come packed in durable box as great gift idea.  </LongDescription>
+    </Description>
+  </CatalogEntry>
+
+</KitBundle>

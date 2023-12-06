@@ -1,0 +1,1 @@
+delete from attr where identifier in ('CordsColor','CordsSize','DressPantColor','DressPantSize','DressShirtColor','DressShirtSize','CasualShirtColor','CasualShirtSize','BodysuitColor','BodysuitSize','Style');

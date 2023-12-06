@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+
+<ItemsWithAttributesPrice loadItemName="CatalogEntry">
+
+  <CatalogEntry Type="Item" Sequence="2" Delete="0">
+    <PartNumber>Soccer shorts</PartNumber>
+    <ParentGroupIdentifier>Activewear</ParentGroupIdentifier>
+    <Prices CurrencyCode="USD">
+      <ListPrice>20</ListPrice>
+      <Price>15</Price>
+    </Prices>
+    <Description>
+      <Name>Soccer shorts</Name>
+      <ShortDescription>High performance soccer shorts</ShortDescription>
+      <LongDescription>Engineered with ultra fine lightweight weaves to absorb moisture and perspiration from the body for extra comfort.</LongDescription>
+      <Thumbnail>images/catalog/womens_activewear_soccer_Ob_sm.gif</Thumbnail>
+      <FullImage>images/catalog/womens_activewear_soccer_Ob_sm.gif</FullImage>
+    </Description>
+  </CatalogEntry>
+
+  <CatalogEntry Type="Item" Sequence="1" Delete="0">
+    <PartNumber>Belt</PartNumber>
+    <ParentGroupIdentifier>Accessory</ParentGroupIdentifier>
+    <Prices CurrencyCode="USD">
+      <ListPrice>23</ListPrice>
+      <Price>18</Price>
+    </Prices>
+    <Description>
+      <Name>Belt</Name>
+      <ShortDescription>Women's leather belt</ShortDescription>
+      <LongDescription>High quality leather belt with European inspired design to complete the sophisticated look.</LongDescription>
+      <Thumbnail>images/catalog/womens_accessories_belt_brown_sm.gif</Thumbnail>
+      <FullImage>images/catalog/womens_accessories_belt_brown.gif</FullImage>
+    </Description>
+  </CatalogEntry>
+
+  <CatalogEntry Type="Item" Sequence="2" Delete="0">
+    <PartNumber>Evening bag</PartNumber>
+    <ParentGroupIdentifier>Accessory</ParentGroupIdentifier>
+    <Prices CurrencyCode="USD">
+      <ListPrice>21</ListPrice>
+      <Price>16</Price>
+    </Prices>
+    <Description>
+      <Name>Evening bag</Name>
+      <ShortDescription>Women's designer evening bag</ShortDescription>
+      <LongDescription>Made with soft supple leather, this bag opens to reveal plenty of space for the essentials for a night on the town.</LongDescription>
+      <Thumbnail>images/catalog/womens_accessories_handbag_sm.gif</Thumbnail>
+      <FullImage>images/catalog/womens_accessories_handbag.gif</FullImage>
+    </Description>
+  </CatalogEntry>
+
+</ItemsWithAttributesPrice>

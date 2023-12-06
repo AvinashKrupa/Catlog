@@ -1,0 +1,3 @@
+CatalogEntry,,,,,,,,,,,,,,,
+PartNumber,Type,ParentPartNumber,Sequence,ParentGroupIdentifier,CurrencyCode,ListPrice,Price,Name,ShortDescription,LongDescription,Thumbnail,FullImage,Color,Size,Delete
+Bodysuit-Black-Petit,Item,Bodysuit,1,Activewear,USD,17,12,Bodysuit-Black-Petit,Women's Bodysuit - Black - Petit,"Machine wash in cold water, gentle cycle drip dry. ",images/catalog/womens_sleepwear_short_Iblue_sm.gif,images/catalog/womens_sleepwear_short_Iblue.gif,Black,Petit,0

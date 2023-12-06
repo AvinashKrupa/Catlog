@@ -1,0 +1,24 @@
+ProductDefiningAttributeAllowedValues_fr_FR,,,,,,,
+PartNumber,EnglishName,EnglishValueSequence,EnglishValue,FrenchName,FrenchValueSequence,FrenchValue,Delete
+Cords,Color,1,Black,Couleur,1,Noir,
+Cords,Color,2,Brown,Couleur,2,Marron,
+Cords,Size,1,29W x 28L,Taille,1,29W x 28L,
+Cords,Size,2,30W x 32L,Taille,2,30W x 32L,
+Cords,Size,3,34W x 30L,Taille,3,34W x 30L,
+Classic pleated dress pant,Color,1,Black,Couleur,1,Noir,
+Classic pleated dress pant,Color,2,Blue,Couleur,2,Bleu,
+Classic pleated dress pant,Size,1,29W x 32L,Taille,1,29W x 32L,
+Classic pleated dress pant,Size,2,32W x 32L,Taille,2,32W x 32L,
+Dress shirt,Color,1,White,Couleur,1,Blanc,
+Dress shirt,Size,1,15,Taille,1,15,
+Dress shirt,Size,2,16,Taille,2,16,
+Dress shirt,Size,3,17,Taille,3,17,
+Casual shirt,Color,1,White,Couleur,1,Blanc,
+Casual shirt,Color,2,Blue,Couleur,2,Bleu
+Casual shirt,Color,3,Pink,Couleur,3,Rose
+Casual shirt,Color,4,Purple,Couleur,4,Violet
+Casual shirt,Size,1,Small,Taille,1,Petit
+Casual shirt,Size,2,Medium,Taille,2,Medium
+Casual shirt,Size,3,Large,Taille,3,Grand
+Bodysuit,Color,1,Black,Couleur,1,Noir
+Bodysuit,Size,1,Petit,Taille,1,Petit

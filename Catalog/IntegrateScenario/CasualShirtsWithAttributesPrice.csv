@@ -1,0 +1,4 @@
+CatalogEntry,,,,,,,,,,,,,,,
+PartNumber,Type,ParentPartNumber,Sequence,ParentGroupIdentifier,CurrencyCode,ListPrice,Price,Name,ShortDescription,LongDescription,Thumbnail,FullImage,Color,Size,Delete
+Casual shirt-White-Small,Item,Casual shirt,1,Shirts,USD,37,32,Casual shirt-White-Small,Casual shirt - White - Small. Wrinkle free,100% cotton. Machine washable.,images/catalog/mens_shirts_dresscas_Dkhaki_sm.gif,images/catalog/mens_shirts_dresscas_Dkhaki.gif,White,Small,0
+Casual shirt-Blue-Medium,Item,Casual shirt,2,Shirts,USD,37,32,Casual shirt-Blue-Medium,Casual shirt - Blue - Medium. Wrinkle free,100% cotton. Machine washable.,images/catalog/mens_shirts_dresscas_Dkhaki_sm.gif,images/catalog/mens_shirts_dresscas_Dkhaki.gif,Blue,Medium,0

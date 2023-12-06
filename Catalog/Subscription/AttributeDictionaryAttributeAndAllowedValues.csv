@@ -1,0 +1,5 @@
+AttributeDictionaryAttributeAndAllowedValues,,,,,,,,,,,,
+Identifier,Type,AttributeType,Sequence,Displayable,Comparable,Name,AllowedValue1,AllowedValue2,AllowedValue3,AllowedValue4,AllowedValue5,Delete
+fulfillmentFrequency,INTEGER,AllowedValues,1,TRUE,TRUE,Publishing frequency,1,,,,,
+paymentFrequency,INTEGER,AllowedValues,2,TRUE,TRUE,Payment option,0,,,,,
+timePeriod,INTEGER,AllowedValues,3,TRUE,TRUE,Subscription period,1,2,,,,

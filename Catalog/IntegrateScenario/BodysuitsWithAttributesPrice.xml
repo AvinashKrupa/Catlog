@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+
+<BodysuitsWithAttributesPrice loadItemName="CatalogEntry">
+
+  <CatalogEntry Type="Item" Sequence="1" Delete="0">
+    <PartNumber>Bodysuit-Black-Petit</PartNumber>
+    <ParentPartNumber>Bodysuit</ParentPartNumber>
+    <ParentGroupIdentifier>Activewear</ParentGroupIdentifier>
+    <Prices CurrencyCode="USD">
+      <ListPrice>17</ListPrice>
+      <Price>12</Price>
+    </Prices>
+    <Description>
+      <Name>Bodysuit-Black-Petit</Name>
+      <ShortDescription>Women's Bodysuit - Black - Petit</ShortDescription>
+      <LongDescription>Machine wash in cold water, gentle cycle drip dry.</LongDescription>
+      <Thumbnail>images/catalog/womens_sleepwear_short_Iblue_sm.gif</Thumbnail>
+      <FullImage>images/catalog/womens_sleepwear_short_Iblue.gif</FullImage>
+    </Description>
+    <CatalogEntryAttributes>
+      <Color>Black</Color>
+      <Size>Petit</Size>
+    </CatalogEntryAttributes>
+  </CatalogEntry>
+
+</BodysuitsWithAttributesPrice>

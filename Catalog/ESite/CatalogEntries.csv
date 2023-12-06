@@ -1,0 +1,4 @@
+CatalogEntry,,,,,,,,,,,,,,
+PartNumber,Type,ParentPartNumber,Sequence,ParentGroupIdentifier,ParentStoreIdentifier,CurrencyCode,ListPrice,Price,Name,ShortDescription,LongDescription,Thumbnail,FullImage,Delete
+Cords,Product,,1,Pants,Extended Sites Catalog Asset Store,USD,35,25,Men's designer corduroy pants,Men's 8-wale corduroy pants ,Men's 8-wale corduroy pants provide style and comfort.,images/catalog/mens_pants_cords_sm.gif,images/catalog/mens_pants_cords.gif,0
+Cords-Black-29W x 28L,Item,Cords,1,Pants,Extended Sites Catalog Asset Store,USD,35,25,Men's designer corduroy pants - Black 29W x 28L,Men's corduroy pants - Black 29 Width x 28 Length,"Fabric 50% cotton, 50% polyester.",images/catalog/mens_pants_cords_sm.gif,images/catalog/mens_pants_cords.gif,0

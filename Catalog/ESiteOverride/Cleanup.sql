@@ -1,0 +1,3 @@
+delete  FROM CATENTDESCOVR where CATENTRY_ID in 
+(select CATENTRY_ID from CATENTRY 
+   where CATENTRY.PARTNUMBER IN ('AuroraWMDRS-6', 'AuroraWMDRS-11') );

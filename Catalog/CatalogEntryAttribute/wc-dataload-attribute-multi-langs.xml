@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+<_config:DataLoadConfiguration
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.ibm.com/xmlns/prod/commerce/foundation/config ../../../../xml/config/xsd/wc-dataload.xsd" 
+	xmlns:_config="http://www.ibm.com/xmlns/prod/commerce/foundation/config">
+
+	<_config:DataLoadEnvironment configFile="../wc-dataload-env.xml" />
+
+    <_config:LoadOrder commitCount="100" batchSize="1" dataLoadMode="Replace" >
+  	   <_config:property name="firstTwoLinesAreHeader" value="true" />
+
+  	   <!-- Classic Attribute -->
+  	   <_config:LoadItem name="ProductDefiningAttribute_fr_FR" businessObjectConfigFile="wc-loader-product-defining-attribute-fr_FR.xml" >
+  	        <_config:DataSourceLocation location="ProductDefiningAttribute_fr_FR.csv" oldLocation="" />
+  	   </_config:LoadItem>
+  	   <_config:LoadItem name="ProductDefiningAttributeAllowedValues_fr_FR" businessObjectConfigFile="wc-loader-product-defining-attribute-allowed-values-fr_FR.xml" >
+  	        <_config:DataSourceLocation location="ProductDefiningAttributeAllowedValues_fr_FR.csv" oldLocation="" />
+  	   </_config:LoadItem>
+  	   <_config:LoadItem name="SKUDefiningAttributeValue" businessObjectConfigFile="wc-loader-SKU-defining-attribute-value.xml" >
+  	        <_config:DataSourceLocation location="SKUDefiningAttributeValue.csv" oldLocation="" />
+  	   </_config:LoadItem>
+  	   <_config:LoadItem name="CatalogEntryDescriptiveAttributeAndValue_fr_FR" businessObjectConfigFile="wc-loader-catalog-entry-descriptive-attribute-and-value-fr_FR.xml" >
+  	        <_config:DataSourceLocation location="CatalogEntryDescriptiveAttributeAndValue_fr_FR.csv" oldLocation="" />
+  	   </_config:LoadItem>
+
+    </_config:LoadOrder>
+
+</_config:DataLoadConfiguration>

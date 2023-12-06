@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+
+<CasualShirtsWithAttributesPrice loadItemName="CatalogEntry">
+
+  <CatalogEntry Type="Item" Sequence="1" Delete="0">
+    <PartNumber>Casual shirt-White-Small</PartNumber>
+    <ParentPartNumber>Casual shirt</ParentPartNumber>
+    <ParentGroupIdentifier>Shirts</ParentGroupIdentifier>
+    <Prices CurrencyCode="USD">
+      <ListPrice>37</ListPrice>
+      <Price>32</Price>
+    </Prices>
+    <Description>
+      <Name>Casual shirt-White-Small</Name>
+      <ShortDescription>Casual shirt - White - Small. Wrinkle free</ShortDescription>
+      <LongDescription>100% cotton. Machine washable.</LongDescription>
+      <Thumbnail>images/catalog/mens_shirts_dresscas_Dkhaki_sm.gif</Thumbnail>
+      <FullImage>images/catalog/mens_shirts_dresscas_Dkhaki.gif</FullImage>
+    </Description>
+    <CatalogEntryAttributes>
+      <Color>White</Color>
+      <Size>Small</Size>
+    </CatalogEntryAttributes>
+  </CatalogEntry>
+
+  <CatalogEntry Type="Item" Sequence="2" Delete="0">
+    <PartNumber>Casual shirt-Blue-Medium</PartNumber>
+    <ParentPartNumber>Casual shirt</ParentPartNumber>
+    <ParentGroupIdentifier>Shirts</ParentGroupIdentifier>
+    <Prices CurrencyCode="USD">
+      <ListPrice>37</ListPrice>
+      <Price>32</Price>
+    </Prices>
+    <Description>
+      <Name>Casual shirt-Blue-Medium</Name>
+      <ShortDescription>Casual shirt - Blue - Medium. Wrinkle free</ShortDescription>
+      <LongDescription>100% cotton. Machine washable.</LongDescription>
+      <Thumbnail>images/catalog/mens_shirts_dresscas_Dkhaki_sm.gif</Thumbnail>
+      <FullImage>images/catalog/mens_shirts_dresscas_Dkhaki.gif</FullImage>
+    </Description>
+    <CatalogEntryAttributes>
+      <Color>Blue</Color>
+      <Size>Medium</Size>
+    </CatalogEntryAttributes>
+  </CatalogEntry>
+
+</CasualShirtsWithAttributesPrice>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+<!--
+	Use this data load configuration file with the pdk migration utility to migrate pdk data from the catconfinf,dkpdccomplist,dkpdccatentrel,dkpredefconf table to the catentry, storecent,baseitem,itemspc,catentdesc,catgpenrel,seourl,seourlkeyword,catentreltables.
+	You do not need to change any of the parameters in this file; however, make sure the ../wc-dataload-env.xml file contains the correct database username and password.
+	The value of businessObjectConfigFile could be any valid business object definition file.
+-->
+<_config:DataLoadConfiguration
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.ibm.com/xmlns/prod/commerce/foundation/config ../xsd/wc-dataload-businessobject.xsd" 
+	xmlns:_config="http://www.ibm.com/xmlns/prod/commerce/foundation/config">
+	
+	<_config:DataLoadEnvironment configFile="../wc-dataload-env.xml" />
+	
+	<_config:LoadOrder>
+		<_config:LoadItem name="PDCMigration" businessObjectConfigFile="wc-loader-catalog-entry.xml" />
+	</_config:LoadOrder>
+
+	
+</_config:DataLoadConfiguration>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+
+<KitBundleComponents loadItemName="CatalogEntryComponent">
+
+  <CatalogEntryComponent Sequence="1" Delete="0">
+    <PartNumber>Gift Set-Pants</PartNumber>
+    <ChildPartNumber>Classic pleated dress pant-Black-29W x 32L</ChildPartNumber>
+    <Quantity>1</Quantity> 
+  </CatalogEntryComponent>
+
+  <CatalogEntryComponent Sequence="2" Delete="0">
+    <PartNumber>Gift Set-Pants</PartNumber>
+    <ChildPartNumber>Cords-Brown-29W x 28L</ChildPartNumber>
+    <Quantity>1</Quantity> 
+  </CatalogEntryComponent>
+
+  <CatalogEntryComponent Sequence="1" Delete="0">
+    <PartNumber>Gift Set-Shirt-Pant</PartNumber>
+    <ChildPartNumber>Classic pleated dress pant-Black-29W x 32L</ChildPartNumber>
+    <Quantity>1</Quantity> 
+  </CatalogEntryComponent>
+
+  <CatalogEntryComponent Sequence="2" Delete="0">
+    <PartNumber>Gift Set-Shirt-Pant</PartNumber>
+    <ChildPartNumber>Dress shirt-White-15</ChildPartNumber>
+    <Quantity>1</Quantity> 
+  </CatalogEntryComponent>
+
+</KitBundleComponents>

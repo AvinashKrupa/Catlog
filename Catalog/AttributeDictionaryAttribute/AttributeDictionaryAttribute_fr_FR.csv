@@ -1,0 +1,13 @@
+AttributeDictionaryAttributeAndAllowedValues,,,,,,,,,
+Identifier,Type,AttributeType,Name,NameFrench,Sequence,Displayable,Searchable,Comparable,StoreDisplay,Delete
+CordsColor,STRING,AllowedValues,Color,Couleur,1.0,true,true,true,0,
+CordsSize,STRING,AllowedValues,Size,Taille,2.0,true,true,true,1,
+DressPantColor,STRING,AllowedValues,Color,Couleur,3.0,true,true,true,0,
+DressPantSize,STRING,AllowedValues,Size,Taille,4.0,true,true,true,0,
+DressShirtColor,STRING,AllowedValues,Color,Couleur,5.0,true,true,true,1,
+DressShirtSize,INTEGER,AllowedValues,Size,Taille,6.0,true,true,true,0,
+CasualShirtColor,STRING,AllowedValues,Color,Couleur,7.0,true,true,true,0,
+CasualShirtSize,STRING,AllowedValues,Size,Taille,8.0,true,true,true,1,
+BodysuitColor,STRING,AllowedValues,Color,Couleur,9.0,true,true,true,0,
+BodysuitSize,STRING,AllowedValues,Size,Taille,10.0,true,true,true,0,
+Style,STRING,AssignedValues,Style,Mode,11.0,true,true,true,0,

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+
+<NonATPInventory loadItemName="CatalogEntryInventory">
+
+  <CatalogEntryInventory Delete="0">
+    <PartNumber>Cords-Black-29W x 28L</PartNumber>
+    <Quantity>200</Quantity> 
+  </CatalogEntryInventory>
+
+  <CatalogEntryInventory Delete="0">
+    <PartNumber>Cords-Brown-29W x 28L</PartNumber>
+    <Quantity>100</Quantity> 
+  </CatalogEntryInventory>
+
+  <CatalogEntryInventory Delete="0">
+    <PartNumber>Classic pleated dress pant-Black-29W x 32L</PartNumber>
+    <Quantity>400</Quantity> 
+  </CatalogEntryInventory>
+
+  <CatalogEntryInventory Delete="0">
+    <PartNumber>Dress shirt-White-15</PartNumber>
+    <Quantity>500</Quantity> 
+  </CatalogEntryInventory>
+
+  <CatalogEntryInventory Delete="0">
+    <PartNumber>Dress shirt-White-16</PartNumber>
+    <Quantity>300</Quantity> 
+  </CatalogEntryInventory>
+
+  <CatalogEntryInventory Delete="0">
+    <PartNumber>Casual shirt-White-Small</PartNumber>
+    <Quantity>100</Quantity> 
+  </CatalogEntryInventory>
+
+  <CatalogEntryInventory Delete="0">
+    <PartNumber>Casual shirt-Blue-Medium</PartNumber>
+    <Quantity>50</Quantity> 
+  </CatalogEntryInventory>
+
+  <CatalogEntryInventory Delete="0">
+    <PartNumber>Bodysuit-Black-Petit</PartNumber>
+    <Quantity>200</Quantity> 
+  </CatalogEntryInventory>
+
+  <CatalogEntryInventory Delete="0">
+    <PartNumber>Soccer shorts</PartNumber>
+    <Quantity>80</Quantity> 
+  </CatalogEntryInventory>
+
+  <CatalogEntryInventory Delete="0">
+    <PartNumber>Belt</PartNumber>
+    <Quantity>150</Quantity> 
+  </CatalogEntryInventory>
+
+  <CatalogEntryInventory Delete="0">
+    <PartNumber>Evening bag</PartNumber>
+    <Quantity>300</Quantity> 
+  </CatalogEntryInventory>
+
+</NonATPInventory>

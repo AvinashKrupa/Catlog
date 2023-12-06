@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+
+<CordsWithAttributesPrice loadItemName="CatalogEntry">
+
+  <CatalogEntry Type="Item" Sequence="1" Delete="0">
+    <PartNumber>Cords-Black-29W x 28L</PartNumber>
+    <ParentPartNumber>Cords</ParentPartNumber>
+    <ParentGroupIdentifier>Pants</ParentGroupIdentifier>
+    <Prices CurrencyCode="USD">
+      <ListPrice>30</ListPrice>
+      <Price>25</Price>
+    </Prices>
+    <Description>
+      <Name>Men's corduroy pants - Black 29W x 28L</Name>
+      <ShortDescription>Men's corduroy pants - Black 29 Width x 28 Length</ShortDescription>
+      <LongDescription>Fabric 50% cotton, 50% polyester.</LongDescription>
+      <Thumbnail>images/catalog/mens_pants_cords_sm.gif</Thumbnail>
+      <FullImage>images/catalog/mens_pants_cords.gif</FullImage>
+    </Description>
+    <CalculationCodes>
+      <SalesTaxCalculationCode>Default</SalesTaxCalculationCode>
+      <ShippingTaxCalculationCode>Shipping Tax</ShippingTaxCalculationCode>
+    </CalculationCodes>
+    <CatalogEntryAttributes>
+      <Color>Black</Color>
+      <Size>29W x 28L</Size>
+    </CatalogEntryAttributes>
+  </CatalogEntry>
+
+  <CatalogEntry Type="Item" Sequence="2" Delete="0">
+    <PartNumber>Cords-Brown-29W x 28L</PartNumber>
+    <ParentPartNumber>Cords</ParentPartNumber>
+    <ParentGroupIdentifier>Pants</ParentGroupIdentifier>
+    <Prices CurrencyCode="USD">
+      <ListPrice>30</ListPrice>
+      <Price>25</Price>
+    </Prices>
+    <Description>
+      <Name>Men's corduroy pants - Brown 29W x 28L</Name>
+      <ShortDescription>Men's corduroy pants - Brown 29 Width x 28 Length</ShortDescription>
+      <LongDescription>Fabric 50% cotton, 50% polyester.</LongDescription>
+      <Thumbnail>images/catalog/mens_pants_cords_sm.gif</Thumbnail>
+      <FullImage>images/catalog/mens_pants_cords.gif</FullImage>
+    </Description>
+    <CalculationCodes>
+      <SalesTaxCalculationCode>Default</SalesTaxCalculationCode>
+    </CalculationCodes>
+    <CatalogEntryAttributes>
+      <SalesTaxCalculationCode>Default</SalesTaxCalculationCode>
+      <Color>Brown</Color>
+      <Size>29W x 28L</Size>
+    </CatalogEntryAttributes>
+  </CatalogEntry>
+
+</CordsWithAttributesPrice>

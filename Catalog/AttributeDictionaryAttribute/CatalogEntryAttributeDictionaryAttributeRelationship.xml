@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+<LoadItems loadItemName="CatalogEntryAttributeDictionaryAttributeRelationship">
+	<LoadItem Delete="0">
+		<PartNumber>Cords-Black-29W x 28L</PartNumber>
+		<Attribute Sequence="1.0">
+			<AttributeIdentifier>CordsColor</AttributeIdentifier>
+			<ValueIdentifier>Black</ValueIdentifier>
+			<Usage>Defining</Usage>
+		</Attribute>
+	</LoadItem>
+	<LoadItem>
+		<PartNumber>Cords-Black-29W x 28L</PartNumber>
+		<Attribute Sequence="2.0">
+			<AttributeIdentifier>CordsSize</AttributeIdentifier>
+			<ValueIdentifier>29W x 28L</ValueIdentifier>
+			<Usage>Defining</Usage>
+		</Attribute>
+	</LoadItem>
+	<LoadItem>
+		<PartNumber>Cords-Brown-29W x 28L</PartNumber>
+		<Attribute Sequence="1.0">
+			<AttributeIdentifier>CordsColor</AttributeIdentifier>
+			<ValueIdentifier>Brown</ValueIdentifier>
+			<Usage>Defining</Usage>
+		</Attribute>
+	</LoadItem>
+	<LoadItem>
+		<PartNumber>Cords-Brown-29W x 28L</PartNumber>
+		<Attribute Sequence="2.0">
+			<AttributeIdentifier>CordsSize</AttributeIdentifier>
+			<ValueIdentifier>29W x 28L</ValueIdentifier>
+			<Usage>Defining</Usage>
+		</Attribute>
+	</LoadItem>
+	<LoadItem>
+		<PartNumber>Classic pleated dress pant-Black-29W x 32L</PartNumber>
+		<Attribute Sequence="1.0">
+			<AttributeIdentifier>DressPantColor</AttributeIdentifier>
+			<ValueIdentifier>Black</ValueIdentifier>
+			<Usage>Defining</Usage>
+		</Attribute>
+	</LoadItem>
+	<LoadItem>
+		<PartNumber>Classic pleated dress pant-Black-29W x 32L</PartNumber>
+		<Attribute Sequence="2.0">
+			<AttributeIdentifier>DressPantSize</AttributeIdentifier>
+			<ValueIdentifier>29W x 32L</ValueIdentifier>
+			<Usage>Defining</Usage>
+		</Attribute>
+	</LoadItem>
+	<LoadItem>
+		<PartNumber>Classic pleated dress pant-Black-29W x 32L</PartNumber>
+		<Attribute Sequence="3.0">
+			<AttributeIdentifier>Style</AttributeIdentifier>
+			<ValueIdentifier>Elegant</ValueIdentifier>
+			<Value>Elegant</Value>
+			<Usage>Descriptive</Usage>
+		</Attribute>
+	</LoadItem>
+	<LoadItem>
+		<PartNumber>Dress shirt-White-15</PartNumber>
+		<Attribute Sequence="1.0">
+			<AttributeIdentifier>DressShirtColor</AttributeIdentifier>
+			<ValueIdentifier>White</ValueIdentifier>
+			<Usage>Defining</Usage>
+		</Attribute>
+	</LoadItem>
+	<LoadItem>
+		<PartNumber>Dress shirt-White-15</PartNumber>
+		<Attribute Sequence="2.0">
+			<AttributeIdentifier>DressShirtSize</AttributeIdentifier>
+			<ValueIdentifier>15</ValueIdentifier>
+			<Usage>Defining</Usage>
+		</Attribute>
+	</LoadItem>
+	<LoadItem>
+		<PartNumber>Dress shirt-White-16</PartNumber>
+		<Attribute Sequence="1.0">
+			<AttributeIdentifier>DressShirtColor</AttributeIdentifier>
+			<ValueIdentifier>White</ValueIdentifier>
+			<Usage>Defining</Usage>
+		</Attribute>
+	</LoadItem>
+	<LoadItem>
+		<PartNumber>Dress shirt-White-16</PartNumber>
+		<Attribute Sequence="2.0">
+			<AttributeIdentifier>DressShirtSize</AttributeIdentifier>
+			<ValueIdentifier>16</ValueIdentifier>
+			<Usage>Defining</Usage>
+		</Attribute>
+	</LoadItem>
+	<LoadItem>
+		<PartNumber>Casual shirt-White-Small</PartNumber>
+		<Attribute Sequence="1.0">
+			<AttributeIdentifier>CasualShirtColor</AttributeIdentifier>
+			<ValueIdentifier>White</ValueIdentifier>
+			<Usage>Defining</Usage>
+		</Attribute>
+	</LoadItem>
+	<LoadItem>
+		<PartNumber>Casual shirt-White-Small</PartNumber>
+		<Attribute Sequence="2.0">
+			<AttributeIdentifier>CasualShirtSize</AttributeIdentifier>
+			<ValueIdentifier>Small</ValueIdentifier>
+			<Usage>Defining</Usage>
+		</Attribute>
+	</LoadItem>
+	<LoadItem>
+		<PartNumber>Casual shirt-Blue-Medium</PartNumber>
+		<Attribute Sequence="1.0">
+			<AttributeIdentifier>CasualShirtColor</AttributeIdentifier>
+			<ValueIdentifier>Blue</ValueIdentifier>
+			<Usage>Defining</Usage>
+		</Attribute>
+	</LoadItem>
+	<LoadItem>
+		<PartNumber>Casual shirt-Blue-Medium</PartNumber>
+		<Attribute Sequence="2.0">
+			<AttributeIdentifier>CasualShirtSize</AttributeIdentifier>
+			<ValueIdentifier>Medium</ValueIdentifier>
+			<Usage>Defining</Usage>
+		</Attribute>
+	</LoadItem>
+	<LoadItem>
+		<PartNumber>Bodysuit-Black-Petit</PartNumber>
+		<Attribute Sequence="1.0">
+			<AttributeIdentifier>BodysuitColor</AttributeIdentifier>
+			<ValueIdentifier>Black</ValueIdentifier>
+			<Usage>Defining</Usage>
+		</Attribute>
+	</LoadItem>
+	<LoadItem>
+		<PartNumber>Bodysuit-Black-Petit</PartNumber>
+		<Attribute Sequence="2.0">
+			<AttributeIdentifier>BodysuitSize</AttributeIdentifier>
+			<ValueIdentifier>Petit</ValueIdentifier>
+			<Usage>Defining</Usage>
+		</Attribute>
+	</LoadItem>
+	<LoadItem>
+		<PartNumber>Bodysuit-Black-Petit</PartNumber>
+		<Attribute Sequence="3.0">
+			<AttributeIdentifier>Style</AttributeIdentifier>
+			<ValueIdentifier>Young and energetic</ValueIdentifier>
+			<Value>Young and energetic</Value>
+			<Usage>Descriptive</Usage>
+		</Attribute>
+	</LoadItem>
+</LoadItems>

@@ -1,0 +1,1 @@
+delete from attribute where catentry_id in (select catentry_id from catentry where partnumber like 'Cords%' or partnumber like 'Classic pleated dress pant%' or partnumber like 'Dress shirt%' or partnumber like 'Casual shirt%' or partnumber like 'Bodysuit%');

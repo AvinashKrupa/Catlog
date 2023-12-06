@@ -1,0 +1,12 @@
+AttributeDictionaryAttributeAndAllowedValues,,,,,,,,,,,,,,,,
+Identifier,Type,AttributeType,Sequence,Displayable,StoreDisplay,Comparable,Facetable,Searchable,Merchandisable,Name,AllowedValue1,AllowedValue2,AllowedValue3,AllowedValue4,AllowedValue5,Delete
+CordsColor,STRING,AllowedValues,1,TRUE,0,TRUE,FALSE,FALSE,FALSE,Color,Black,Brown,Blue,,,
+CordsSize,STRING,AllowedValues,2,TRUE,0,TRUE,FALSE,FALSE,TRUE,Size,29W x 28L,30W x 32L,34W x 30L,,,
+DressPantColor,STRING,AllowedValues,3,TRUE,0,TRUE,FALSE,TRUE,FALSE,Color,Black,Blue,,,,
+DressPantSize,STRING,AllowedValues,4,TRUE,0,TRUE,TRUE,TRUE,FALSE,Size,29W x 32L,32W x 32L,,,,
+DressShirtColor,STRING,AllowedValues,5,TRUE,0,TRUE,FALSE,TRUE,TRUE,Color,White,,,,,
+DressShirtSize,INTEGER,AllowedValues,6,TRUE,0,TRUE,TRUE,TRUE,TRUE,Size,15,16,17,,,
+CasualShirtColor,STRING,AllowedValues,7,TRUE,0,TRUE,FALSE,FALSE,FALSE,Color,White,Blue,Pink,Purple,,
+CasualShirtSize,STRING,AllowedValues,8,TRUE,0,TRUE,FALSE,,,Size,Small,Medium,Large,,,
+BodysuitColor,STRING,AllowedValues,9,TRUE,0,TRUE,,TRUE,,Color,Black,,,,,
+BodysuitSize,STRING,AllowedValues,10,TRUE,0,TRUE,,,TRUE,Size,Petit,,,,,

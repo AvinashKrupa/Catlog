@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+
+<ATPInventory loadItemName="CatalogEntryATPInventory">
+  <CatalogEntryATPInventory Type="ProductBean">
+    <PartNumber>Cords</PartNumber>
+    <FulfillmentProperties>
+      <INVQuantityMeasure>C62</INVQuantityMeasure>
+      <INVQuantityMultiple>1</INVQuantityMultiple>
+      <TrackingInventory>Y</TrackingInventory>
+      <BackOrderable>N</BackOrderable>
+      <ReleaseSeparately>Y</ReleaseSeparately>
+      <Creditable>Y</Creditable>
+      <ForceBackorder>N</ForceBackorder>
+      <ReturnNotDesired>N</ReturnNotDesired>
+      <MinQTYForSplit>0</MinQTYForSplit>
+      <PickingMethod>F</PickingMethod>
+    </FulfillmentProperties>
+  </CatalogEntryATPInventory>
+
+  <CatalogEntryATPInventory Type="ItemBean" Delete="0">
+    <PartNumber>Cords-Black-29W x 28L</PartNumber>
+    <ParentPartNumber>Cords</ParentPartNumber>
+    <FulfillmentProperties>
+      <Discontinued>N</Discontinued>
+    </FulfillmentProperties>
+  </CatalogEntryATPInventory>
+
+  <CatalogEntryATPInventory Type="ItemBean" Delete="0">
+    <PartNumber>Cords-Brown-29W x 28L</PartNumber>
+    <ParentPartNumber>Cords</ParentPartNumber>
+    <FulfillmentProperties>
+      <Discontinued>N</Discontinued>
+    </FulfillmentProperties>
+  </CatalogEntryATPInventory>
+
+  <CatalogEntryATPInventory Type="ProductBean">
+    <PartNumber>Classic pleated dress pant</PartNumber>
+    <FulfillmentProperties>
+      <INVQuantityMeasure>C62</INVQuantityMeasure>
+      <INVQuantityMultiple>1</INVQuantityMultiple>
+      <TrackingInventory>Y</TrackingInventory>
+      <BackOrderable>Y</BackOrderable>
+      <ReleaseSeparately>N</ReleaseSeparately>
+      <Creditable>Y</Creditable>
+      <ForceBackorder>N</ForceBackorder>
+      <ReturnNotDesired>N</ReturnNotDesired>
+      <MinQTYForSplit>0</MinQTYForSplit>
+      <PickingMethod>F</PickingMethod>
+    </FulfillmentProperties>
+  </CatalogEntryATPInventory>
+
+  <CatalogEntryATPInventory Type="ItemBean" Delete="0">
+    <PartNumber>Classic pleated dress pant-Black-29W x 32L</PartNumber>
+    <ParentPartNumber>Classic pleated dress pant</ParentPartNumber>
+    <FulfillmentProperties>
+      <Discontinued>N</Discontinued>
+    </FulfillmentProperties>
+  </CatalogEntryATPInventory>
+
+  <CatalogEntryATPInventory Type="ProductBean">
+    <PartNumber>Dress shirt</PartNumber>
+    <FulfillmentProperties>
+      <INVQuantityMeasure>C62</INVQuantityMeasure>
+      <INVQuantityMultiple>1</INVQuantityMultiple>
+      <TrackingInventory>Y</TrackingInventory>
+      <BackOrderable>Y</BackOrderable>
+      <ReleaseSeparately>N</ReleaseSeparately>
+      <Creditable>Y</Creditable>
+      <ForceBackorder>N</ForceBackorder>
+      <ReturnNotDesired>N</ReturnNotDesired>
+      <MinQTYForSplit>0</MinQTYForSplit>
+      <PickingMethod>F</PickingMethod>
+    </FulfillmentProperties>
+  </CatalogEntryATPInventory>
+
+  <CatalogEntryATPInventory Type="Item" Delete="0">
+    <PartNumber>Dress shirt-White-15</PartNumber>
+    <ParentPartNumber>Dress shirt</ParentPartNumber>
+    <FulfillmentProperties>
+      <Discontinued>N</Discontinued>
+    </FulfillmentProperties>
+  </CatalogEntryATPInventory>
+
+  <CatalogEntryATPInventory Type="Item" Delete="0">
+    <PartNumber>Dress shirt-White-16</PartNumber>
+    <ParentPartNumber>Dress shirt</ParentPartNumber>
+    <FulfillmentProperties>
+      <Discontinued>N</Discontinued>
+    </FulfillmentProperties>
+  </CatalogEntryATPInventory>
+
+  <CatalogEntryATPInventory Type="Product">
+    <PartNumber>Casual shirt</PartNumber>
+    <FulfillmentProperties>
+      <INVQuantityMeasure>C62</INVQuantityMeasure>
+      <INVQuantityMultiple>1</INVQuantityMultiple>
+      <TrackingInventory>Y</TrackingInventory>
+      <BackOrderable>Y</BackOrderable>
+      <ReleaseSeparately>N</ReleaseSeparately>
+      <Creditable>Y</Creditable>
+      <ForceBackorder>N</ForceBackorder>
+      <ReturnNotDesired>N</ReturnNotDesired>
+      <MinQTYForSplit>0</MinQTYForSplit>
+      <PickingMethod>F</PickingMethod>
+    </FulfillmentProperties>
+  </CatalogEntryATPInventory>
+
+  <CatalogEntryATPInventory Type="Item" Delete="0">
+    <PartNumber>Casual shirt-White-Small</PartNumber>
+    <ParentPartNumber>Casual shirt</ParentPartNumber>
+    <FulfillmentProperties>
+      <Discontinued>N</Discontinued>
+    </FulfillmentProperties>
+  </CatalogEntryATPInventory>
+
+  <CatalogEntryATPInventory Type="Item" Delete="0">
+    <PartNumber>Casual shirt-Blue-Medium</PartNumber>
+    <ParentPartNumber>Casual shirt</ParentPartNumber>
+    <FulfillmentProperties>
+      <Discontinued>N</Discontinued>
+    </FulfillmentProperties>
+  </CatalogEntryATPInventory>
+
+  <CatalogEntryATPInventory Type="Product">
+    <PartNumber>Bodysuit</PartNumber>
+    <FulfillmentProperties>
+      <INVQuantityMeasure>C62</INVQuantityMeasure>
+      <INVQuantityMultiple>1</INVQuantityMultiple>
+      <TrackingInventory>Y</TrackingInventory>
+      <BackOrderable>Y</BackOrderable>
+      <ReleaseSeparately>N</ReleaseSeparately>
+      <Creditable>Y</Creditable>
+      <ForceBackorder>N</ForceBackorder>
+      <ReturnNotDesired>N</ReturnNotDesired>
+      <MinQTYForSplit>0</MinQTYForSplit>
+      <PickingMethod>F</PickingMethod>
+    </FulfillmentProperties>
+  </CatalogEntryATPInventory>
+
+  <CatalogEntryATPInventory Type="Item" Delete="0">
+    <PartNumber>Bodysuit-Black-Petit</PartNumber>
+    <ParentPartNumber>Bodysuit</ParentPartNumber>
+    <FulfillmentProperties>
+      <Discontinued>N</Discontinued>
+    </FulfillmentProperties>
+  </CatalogEntryATPInventory>
+
+</ATPInventory>

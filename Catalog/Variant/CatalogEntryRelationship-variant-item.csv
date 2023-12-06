@@ -1,0 +1,5 @@
+CatalogEntryRelationship,,,
+PartNumber,ParentPartNumber,CatalogEntryRelationType,Delete
+Cords-Black-29W x 28L,Cords-Black,VARIANT_ITEM,0
+Cords-Black-29W x 28L,Cords-29W x 28L,VARIANT_ITEM,0
+Cords-Brown-29W x 28L,Cords-29W x 28L,VARIANT_ITEM,0

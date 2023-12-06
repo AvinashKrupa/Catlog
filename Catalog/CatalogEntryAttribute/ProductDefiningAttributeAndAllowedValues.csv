@@ -1,0 +1,12 @@
+ProductDefiningAttributeAndAllowedValues,,,,,,,,,
+PartNumber,Type,Name,Sequence,AllowedValue1,AllowedValue2,AllowedValue3,AllowedValue4,AllowedValue5,Delete
+Cords,STRING,Color,1,Black,Brown,,,,
+Cords,STRING,Size,2,29W x 28L,30W x 32L,34W x 30L,,,
+Classic pleated dress pant,STRING,Color,1,Black,Blue,,,,
+Classic pleated dress pant,STRING,Size,2,29W x 32L,32W x 32L,,,,
+Dress shirt,STRING,Color,1,White,,,,,
+Dress shirt,INTEGER,Size,2,15,16,17,,,
+Casual shirt,STRING,Color,1,White,Blue,Pink,Purple,,
+Casual shirt,STRING,Size,2,Small,Medium,Large,,,
+Bodysuit,STRING,Color,1,Black,,,,,
+Bodysuit,STRING,Size,2,Petit,,,,,

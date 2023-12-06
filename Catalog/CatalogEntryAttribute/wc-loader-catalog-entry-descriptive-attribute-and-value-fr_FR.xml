@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+<_config:DataloadBusinessObjectConfiguration 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.ibm.com/xmlns/prod/commerce/foundation/config ../../../../xml/config/xsd/wc-dataload-businessobject.xsd" 
+	xmlns:_config="http://www.ibm.com/xmlns/prod/commerce/foundation/config">
+
+  <_config:DataLoader className="com.ibm.commerce.foundation.dataload.BusinessObjectLoader" >
+    <_config:DataReader className="com.ibm.commerce.foundation.dataload.datareader.CSVReader" firstLineIsHeader="true" useHeaderAsColumnName="true" >
+        <_config:property name="keyColumns" value="PartNumber,EnglishName" />
+    </_config:DataReader>
+    <_config:BusinessObjectBuilder className="com.ibm.commerce.foundation.dataload.businessobjectbuilder.BaseBusinessObjectBuilder"
+      packageName="com.ibm.commerce.catalog.facade.datatypes.CatalogPackage" dataObjectType="CatalogEntryType" >
+      <_config:DataMapping>
+        <!-- The part number of the catalog entry -->
+        <_config:mapping xpath="CatalogEntryIdentifier/ExternalIdentifier/PartNumber" value="PartNumber" />
+        <!-- The unique reference number of the catalog entry -->
+        <_config:mapping xpath="CatalogEntryIdentifier/UniqueID" value="CatalogEntryUniqueId" />
+        <!-- English -->
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[0]/AttributeIdentifier/UniqueID" value="AttributeUniqueId" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[0]/language" value="-1" valueFrom="Fixed" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[0]/AttributeDataType" value="Type" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[0]/Name" value="EnglishName" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[0]/usage" value="Descriptive" valueFrom="Fixed" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[0]/displaySequence" value="EnglishSequence" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[0]/Description" value="EnglishDescription" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[0]/ExtendedData/SecondaryDescription" value="EnglishSecondaryDescription" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[0]/ExtendedData/DisplayGroupName" value="GroupName" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[0]/ExtendedData/Field1" value="EnglishField1" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[0]/ExtendedData/Footnote" value="EnglishFootnote" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[0]/ExtendedData/UnitOfMeasure" value="UnitOfMeasure" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[0]/AllowedValue/value" value="EnglishValue" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[0]/AllowedValue/ExtendedValue/Image1" value="EnglishImage1" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[0]/AllowedValue/ExtendedValue/Image2" value="EnglishImage2" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[0]/AllowedValue/ExtendedValue/Field1" value="EnglishValueField1" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[0]/AllowedValue/ExtendedValue/Field2" value="EnglishValueField2" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[0]/AllowedValue/ExtendedValue/Field3" value="EnglishValueField3" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[0]/AllowedValue/ExtendedValue/AttachmentID" value="EnglishAttachmentID" />
+        <!-- French -->
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[1]/AttributeIdentifier/UniqueID" value="AttributeUniqueId" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[1]/language" value="-2" valueFrom="Fixed" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[1]/AttributeDataType" value="Type" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[1]/Name" value="FrenchName" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[1]/usage" value="Descriptive" valueFrom="Fixed" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[1]/displaySequence" value="FrenchSequence" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[1]/Description" value="FrenchDescription" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[1]/ExtendedData/SecondaryDescription" value="FrenchSecondaryDescription" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[1]/ExtendedData/DisplayGroupName" value="GroupName" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[1]/ExtendedData/Field1" value="FrenchField1" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[1]/ExtendedData/Footnote" value="FrenchFootnote" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[1]/ExtendedData/UnitOfMeasure" value="UnitOfMeasure" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[1]/AllowedValue/value" value="FrenchValue" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[1]/AllowedValue/ExtendedValue/Image1" value="FrenchImage1" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[1]/AllowedValue/ExtendedValue/Image2" value="FrenchImage2" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[1]/AllowedValue/ExtendedValue/Field1" value="FrenchValueField1" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[1]/AllowedValue/ExtendedValue/Field2" value="FrenchValueField2" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[1]/AllowedValue/ExtendedValue/Field3" value="FrenchValueField3" />
+        <_config:mapping xpath="CatalogEntryAttributes/Attributes[1]/AllowedValue/ExtendedValue/AttachmentID" value="FrenchAttachmentID" />
+
+        <!-- The Delete indicator -->
+        <_config:mapping xpath="" value="Delete" deleteValue="1"/>
+      </_config:DataMapping>
+      <_config:BusinessObjectMediator className="com.ibm.commerce.catalog.dataload.mediator.CatalogEntryAttributeMediator" componentId="com.ibm.commerce.catalog" />
+    </_config:BusinessObjectBuilder>
+  </_config:DataLoader>
+
+</_config:DataloadBusinessObjectConfiguration>

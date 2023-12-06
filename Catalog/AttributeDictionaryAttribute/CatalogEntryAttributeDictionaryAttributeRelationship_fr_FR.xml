@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+<LoadItems loadItemName="CatalogEntryAttributeDictionaryAttributeRelationship">
+	<LoadItem Delete="0">
+		<PartNumber>Classic pleated dress pant-Black-29W x 32L</PartNumber>
+		<Attribute Sequence="3.0">
+			<AttributeIdentifier>Style</AttributeIdentifier>
+			<ValueIdentifier>Elegant</ValueIdentifier>
+			<Value LanguageId="-2">Gracieux</Value>
+			<Usage>Descriptive</Usage>
+		</Attribute>
+	</LoadItem>
+	<LoadItem>
+		<PartNumber>Bodysuit-Black-Petit</PartNumber>
+		<Attribute Sequence="3.0">
+			<AttributeIdentifier>Style</AttributeIdentifier>
+			<ValueIdentifier>Young and energetic</ValueIdentifier>
+			<Value LanguageId="-2">Jeune et énergique</Value>
+			<Usage>Descriptive</Usage>
+		</Attribute>
+	</LoadItem>
+</LoadItems>

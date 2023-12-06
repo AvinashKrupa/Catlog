@@ -1,0 +1,5 @@
+CatalogEntry,,,,,,,,,,,,,
+PartNumber,Type,ParentPartNumber,Sequence,ParentGroupIdentifier,CurrencyCode,ListPrice,Price,Name,ShortDescription,LongDescription,Thumbnail,FullImage,Delete
+Soccer shorts,Item,,2,Activewear,USD,20,15,Soccer shorts,High performance soccer shorts,Engineered with ultra fine lightweight weaves to absorb moisture and perspiration from the body for extra comfort.,images/catalog/womens_activewear_soccer_Ob_sm.gif,images/catalog/womens_activewear_soccer_Ob_sm.gif,0
+Belt,Item,,1,Accessory,USD,23,18,Belt,Women's leather belt,High quality leather belt with European inspired design to complete the sophisticated look.,images/catalog/womens_accessories_belt_brown_sm.gif,images/catalog/womens_accessories_belt_brown.gif,0
+Evening bag,Item,,2,Accessory,USD,21,16,Evening bag,Women's designer evening bag,"Made with soft supple leather, this bag opens to reveal plenty of space for the essentials for a night on the town.",images/catalog/womens_accessories_handbag_sm.gif,images/catalog/womens_accessories_handbag.gif,0

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+<CatalogGroups loadItemName="CatalogGroup">
+	<CatalogGroup Sequence="1.0" TopGroup="true" Delete="0">
+		<GroupIdentifier>Mens Fashions</GroupIdentifier>
+		<Description>
+			<Name>Men's Fashions</Name>
+			<ShortDescription>All men's dresswear</ShortDescription>
+			<LongDescription>Find the latest in men's fashions.</LongDescription>
+			<Thumbnail>images/catalog/mens_shirts_dress_stone_sm.gif</Thumbnail>
+			<FullImage>images/catalog/mens_shirts_dress_stone.gif</FullImage>
+			<Keyword>mens fashions</Keyword>
+		</Description>
+	</CatalogGroup>
+	<CatalogGroup Sequence="2.0" TopGroup="true">
+		<GroupIdentifier>Womens Fashions</GroupIdentifier>
+		<Description>
+			<Name>Women's Fashions</Name>
+			<ShortDescription>All women's dresswear</ShortDescription>
+			<LongDescription>Find the latest in women's fashions.</LongDescription>
+			<Thumbnail>images/catalog/womens_dress_pink_Db_sm.gif</Thumbnail>
+			<FullImage>images/catalog/womens_dress_pink_Db.gif</FullImage>
+			<Keyword>womens fashions</Keyword>
+		</Description>
+	</CatalogGroup>
+	<CatalogGroup Sequence="1.0" TopGroup="false">
+		<GroupIdentifier>Pants</GroupIdentifier>
+		<ParentGroupIdentifier>Mens Fashions</ParentGroupIdentifier>
+		<Description>
+			<Name>Pants</Name>
+			<ShortDescription>Denim, cargo and dress pants</ShortDescription>
+			<LongDescription>Find the perfect pair of pants for all seasons and occasions.</LongDescription>
+			<Thumbnail>images/catalog/mens_pants_cords_sm.gif</Thumbnail>
+			<FullImage>images/catalog/mens_pants_cords.gif</FullImage>
+			<Keyword>mens fashions,pants</Keyword>
+		</Description>
+	</CatalogGroup>
+	<CatalogGroup Sequence="2.0" TopGroup="false">
+		<GroupIdentifier>Shirts</GroupIdentifier>
+		<ParentGroupIdentifier>Mens Fashions</ParentGroupIdentifier>
+		<Description>
+			<Name>Shirts</Name>
+			<ShortDescription>Casual, dress and formal shirts</ShortDescription>
+			<LongDescription>Find the perfect shirt for all seasons and occasions.</LongDescription>
+			<Thumbnail>images/catalog/mens_shirts_dress_stone_sm.gif</Thumbnail>
+			<FullImage>images/catalog/mens_shirts_dress_stone.gif</FullImage>
+			<Keyword>mens fashions,shirts</Keyword>
+		</Description>
+	</CatalogGroup>
+	<CatalogGroup Sequence="1.0" TopGroup="false">
+		<GroupIdentifier>Activewear</GroupIdentifier>
+		<ParentGroupIdentifier>Womens Fashions</ParentGroupIdentifier>
+		<Description>
+			<Name>Activewear</Name>
+			<ShortDescription>Activewear for men and women</ShortDescription>
+			<LongDescription>Fitness clothing and apparel for the serious and casual athlete.</LongDescription>
+			<Thumbnail>images/catalog/womens_activewear_1piece_in_sm.gif</Thumbnail>
+			<FullImage>images/catalog/womens_activewear_1piece_in.gif</FullImage>
+			<Keyword>womens fashions,activewear</Keyword>
+		</Description>
+	</CatalogGroup>
+	<CatalogGroup Sequence="2.0" TopGroup="false">
+		<GroupIdentifier>Accessory</GroupIdentifier>
+		<ParentGroupIdentifier>Womens Fashions</ParentGroupIdentifier>
+		<Description>
+			<Name>Accessory</Name>
+			<ShortDescription>Accessories for men and women</ShortDescription>
+			<LongDescription>Find all accessories, such as belts, purses, leather gloves and more.</LongDescription>
+			<Thumbnail>images/catalog/womens_accessories_belt_nav_sm.gif</Thumbnail>
+			<FullImage>images/catalog/womens_accessories_belt_nav.gif</FullImage>
+			<Keyword>womens fashions,accessory</Keyword>
+		</Description>
+	</CatalogGroup>
+</CatalogGroups>

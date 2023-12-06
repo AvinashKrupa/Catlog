@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+<CatalogEntries loadItemName="CatalogEntry">
+	<CatalogEntry Type="Product" Sequence="1.0" Delete="0">
+		<PartNumber>Cords</PartNumber>
+		<ParentGroupIdentifier>Pants</ParentGroupIdentifier>
+		<Prices CurrencyCode="USD">
+			<ListPrice>30</ListPrice>
+			<Price>25</Price>
+		</Prices>
+		<Description>
+			<Name>Men's corduroy pants</Name>
+			<ShortDescription>Men's 8-wale corduroy pants</ShortDescription>
+			<LongDescription>Men's 8-wale corduroy pants provide style and comfort.</LongDescription>
+			<Thumbnail>images/catalog/mens_pants_cords_sm.gif</Thumbnail>
+			<FullImage>images/catalog/mens_pants_cords.gif</FullImage>
+		</Description>
+	</CatalogEntry>
+	<CatalogEntry Type="Item" Sequence="1.0">
+		<PartNumber>Cords-Black-29W x 28L</PartNumber>
+		<ParentPartNumber>Cords</ParentPartNumber>
+		<ParentGroupIdentifier>Pants</ParentGroupIdentifier>
+		<Prices CurrencyCode="USD">
+			<ListPrice>30</ListPrice>
+			<Price>25</Price>
+		</Prices>
+		<Description>
+			<Name>Men's corduroy pants - Black 29W x 28L</Name>
+			<ShortDescription>Men's corduroy pants - Black 29 Width x 28 Length</ShortDescription>
+			<LongDescription>Fabric 50% cotton, 50% polyester.</LongDescription>
+			<Thumbnail>images/catalog/mens_pants_cords_sm.gif</Thumbnail>
+			<FullImage>images/catalog/mens_pants_cords.gif</FullImage>
+		</Description>
+	</CatalogEntry>
+	<CatalogEntry Type="Item" Sequence="2.0">
+		<PartNumber>Cords-Brown-29W x 28L</PartNumber>
+		<ParentPartNumber>Cords</ParentPartNumber>
+		<ParentGroupIdentifier>Pants</ParentGroupIdentifier>
+		<Prices CurrencyCode="USD">
+			<ListPrice>30</ListPrice>
+			<Price>25</Price>
+		</Prices>
+		<Description>
+			<Name>Men's corduroy pants - Brown 29W x 28L</Name>
+			<ShortDescription>Men's corduroy pants - Brown 29 Width x 28 Length</ShortDescription>
+			<LongDescription>Fabric 50% cotton, 50% polyester.</LongDescription>
+			<Thumbnail>images/catalog/mens_pants_cords_sm.gif</Thumbnail>
+			<FullImage>images/catalog/mens_pants_cords.gif</FullImage>
+		</Description>
+	</CatalogEntry>
+	<CatalogEntry Type="Product" Sequence="2.0">
+		<PartNumber>Classic pleated dress pant</PartNumber>
+		<ParentGroupIdentifier>Pants</ParentGroupIdentifier>
+		<Prices CurrencyCode="USD">
+			<ListPrice>40</ListPrice>
+			<Price>35</Price>
+		</Prices>
+		<Description>
+			<Name>Classic pleated dress pants</Name>
+			<ShortDescription>Wrinkle-free 5 pocket classic pleated dress pant</ShortDescription>
+			<LongDescription>Engineered for comfort, style, and durability.</LongDescription>
+			<Thumbnail>images/catalog/mens_pants_dress_sm.gif</Thumbnail>
+			<FullImage>images/catalog/mens_pants_dress.gif</FullImage>
+		</Description>
+	</CatalogEntry>
+	<CatalogEntry Type="Item" Sequence="1.0">
+		<PartNumber>Classic pleated dress pant-Black-29W x 32L</PartNumber>
+		<ParentPartNumber>Classic pleated dress pant</ParentPartNumber>
+		<ParentGroupIdentifier>Pants</ParentGroupIdentifier>
+		<Prices CurrencyCode="USD">
+			<ListPrice>40</ListPrice>
+			<Price>35</Price>
+		</Prices>
+		<Description>
+			<Name>Classic pleated dress pants - Black-29W x 32L</Name>
+			<ShortDescription>Classic pleated dress pants - Black 29 Width x 32 Length</ShortDescription>
+			<LongDescription>Fabric 95% cotton, 5% spandex.</LongDescription>
+			<Thumbnail>images/catalog/mens_pants_dress_sm.gif</Thumbnail>
+			<FullImage>images/catalog/mens_pants_dress.gif</FullImage>
+		</Description>
+	</CatalogEntry>
+	<CatalogEntry Type="Product" Sequence="1.0">
+		<PartNumber>Dress shirt</PartNumber>
+		<ParentGroupIdentifier>Shirts</ParentGroupIdentifier>
+		<Prices CurrencyCode="USD">
+			<ListPrice>33</ListPrice>
+			<Price>28</Price>
+		</Prices>
+		<Description>
+			<Name>Dress shirt</Name>
+			<ShortDescription>Solid color button-down dress shirt</ShortDescription>
+			<LongDescription>Stay cool and stylish with this breathable cotton dress shirt.</LongDescription>
+			<Thumbnail>images/catalog/mens_shirts_dresscas_Dkhaki_sm.gif</Thumbnail>
+			<FullImage>images/catalog/mens_shirts_dresscas_Dkhaki.gif</FullImage>
+		</Description>
+	</CatalogEntry>
+	<CatalogEntry Type="Item" Sequence="1.0">
+		<PartNumber>Dress shirt-White-15</PartNumber>
+		<ParentPartNumber>Dress shirt</ParentPartNumber>
+		<ParentGroupIdentifier>Shirts</ParentGroupIdentifier>
+		<Prices CurrencyCode="USD">
+			<ListPrice>33</ListPrice>
+			<Price>28</Price>
+		</Prices>
+		<Description>
+			<Name>Dress shirt-White-15</Name>
+			<ShortDescription>Dress shirt - White - 15 collar - 32 Sleeve</ShortDescription>
+			<LongDescription>100% cotton. Dry clean only.</LongDescription>
+			<Thumbnail>images/catalog/mens_shirts_dresscas_Dkhaki_sm.gif</Thumbnail>
+			<FullImage>images/catalog/mens_shirts_dresscas_Dkhaki.gif</FullImage>
+		</Description>
+	</CatalogEntry>
+	<CatalogEntry Type="Item" Sequence="2.0">
+		<PartNumber>Dress shirt-White-16</PartNumber>
+		<ParentPartNumber>Dress shirt</ParentPartNumber>
+		<ParentGroupIdentifier>Shirts</ParentGroupIdentifier>
+		<Prices CurrencyCode="USD">
+			<ListPrice>33</ListPrice>
+			<Price>28</Price>
+		</Prices>
+		<Description>
+			<Name>Dress shirt-White-16</Name>
+			<ShortDescription>Dress shirt - White - 16 collar - 35 Sleeve</ShortDescription>
+			<LongDescription>100% cotton. Dry clean only.</LongDescription>
+			<Thumbnail>images/catalog/mens_shirts_dresscas_Dkhaki_sm.gif</Thumbnail>
+			<FullImage>images/catalog/mens_shirts_dresscas_Dkhaki.gif</FullImage>
+		</Description>
+	</CatalogEntry>
+	<CatalogEntry Type="Product" Sequence="2.0">
+		<PartNumber>Casual shirt</PartNumber>
+		<ParentGroupIdentifier>Shirts</ParentGroupIdentifier>
+		<Prices CurrencyCode="USD">
+			<ListPrice>37</ListPrice>
+			<Price>32</Price>
+		</Prices>
+		<Description>
+			<Name>Casual shirt</Name>
+			<ShortDescription>Solid color button down casual shirt</ShortDescription>
+			<LongDescription>Low maintenance wrinkle-free shirts, for everyday use.</LongDescription>
+			<Thumbnail>images/catalog/mens_shirts_dresscas_Dkhaki_sm.gif</Thumbnail>
+			<FullImage>images/catalog/mens_shirts_dresscas_Dkhaki.gif</FullImage>
+		</Description>
+	</CatalogEntry>
+	<CatalogEntry Type="Item" Sequence="1.0">
+		<PartNumber>Casual shirt-White-Small</PartNumber>
+		<ParentPartNumber>Casual shirt</ParentPartNumber>
+		<ParentGroupIdentifier>Shirts</ParentGroupIdentifier>
+		<Prices CurrencyCode="USD">
+			<ListPrice>37</ListPrice>
+			<Price>32</Price>
+		</Prices>
+		<Description>
+			<Name>Casual shirt-White-Small</Name>
+			<ShortDescription>Casual shirt - White - Small. Wrinkle free</ShortDescription>
+			<LongDescription>100% cotton. Machine washable.</LongDescription>
+			<Thumbnail>images/catalog/mens_shirts_dresscas_Dkhaki_sm.gif</Thumbnail>
+			<FullImage>images/catalog/mens_shirts_dresscas_Dkhaki.gif</FullImage>
+		</Description>
+	</CatalogEntry>
+	<CatalogEntry Type="Item" Sequence="2.0">
+		<PartNumber>Casual shirt-Blue-Medium</PartNumber>
+		<ParentPartNumber>Casual shirt</ParentPartNumber>
+		<ParentGroupIdentifier>Shirts</ParentGroupIdentifier>
+		<Prices CurrencyCode="USD">
+			<ListPrice>37</ListPrice>
+			<Price>32</Price>
+		</Prices>
+		<Description>
+			<Name>Casual shirt-Blue-Medium</Name>
+			<ShortDescription>Casual shirt - Blue - Medium. Wrinkle free</ShortDescription>
+			<LongDescription>100% cotton. Machine washable.</LongDescription>
+			<Thumbnail>images/catalog/mens_shirts_dresscas_Dkhaki_sm.gif</Thumbnail>
+			<FullImage>images/catalog/mens_shirts_dresscas_Dkhaki.gif</FullImage>
+		</Description>
+	</CatalogEntry>
+	<CatalogEntry Type="Product" Sequence="1.0">
+		<PartNumber>Bodysuit</PartNumber>
+		<ParentGroupIdentifier>Activewear</ParentGroupIdentifier>
+		<Prices CurrencyCode="USD">
+			<ListPrice>17</ListPrice>
+			<Price>12</Price>
+		</Prices>
+		<Description>
+			<Name>Bodysuit</Name>
+			<ShortDescription>Women's bodysuit</ShortDescription>
+			<LongDescription>Women's one piece bodysuits with V-neck collars. Made from durable lyrca spandex fabric.</LongDescription>
+			<Thumbnail>images/catalog/womens_sleepwear_short_Iblue_sm.gif</Thumbnail>
+			<FullImage>images/catalog/womens_sleepwear_short_Iblue.gif</FullImage>
+		</Description>
+	</CatalogEntry>
+	<CatalogEntry Type="Item" Sequence="1.0">
+		<PartNumber>Bodysuit-Black-Petit</PartNumber>
+		<ParentPartNumber>Bodysuit</ParentPartNumber>
+		<ParentGroupIdentifier>Activewear</ParentGroupIdentifier>
+		<Prices CurrencyCode="USD">
+			<ListPrice>17</ListPrice>
+			<Price>12</Price>
+		</Prices>
+		<Description>
+			<Name>Bodysuit-Black-Petit</Name>
+			<ShortDescription>Women's Bodysuit - Black - Petit</ShortDescription>
+			<LongDescription>Machine wash in cold water, gentle cycle drip dry.</LongDescription>
+			<Thumbnail>images/catalog/womens_sleepwear_short_Iblue_sm.gif</Thumbnail>
+			<FullImage>images/catalog/womens_sleepwear_short_Iblue.gif</FullImage>
+		</Description>
+	</CatalogEntry>
+</CatalogEntries>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+
+<MerchandisingAssociations loadItemName="CatalogEntryAssociation">
+
+  <CatalogEntryAssociation AssociationType="CrossSell" Sequence="1" Delete="0">
+    <PartNumber>Cords-Black-29W x 28L</PartNumber>
+    <TargetPartNumber>Casual shirt-White-Small</TargetPartNumber>
+    <Quantity>1</Quantity> 
+  </CatalogEntryAssociation>
+
+  <CatalogEntryAssociation AssociationType="UpSell" Sequence="2" Delete="0">
+    <PartNumber>Cords-Black-29W x 28L</PartNumber>
+    <TargetPartNumber>Classic pleated dress pant-Black-29W x 32L</TargetPartNumber>
+    <Quantity>1</Quantity> 
+  </CatalogEntryAssociation>
+
+</MerchandisingAssociations>

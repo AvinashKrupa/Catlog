@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ =================================================================
+  Licensed Materials - Property of HCL Technologies
+
+  HCL Commerce
+
+  (C) Copyright HCL Technologies Limited 1996, 2020
+
+ =================================================================
+-->
+<LoadItems loadItemName="AttributeDictionaryAttributeAndAllowedValues">
+	<LoadItem Sequence="1.0" Delete="0">
+		<Identifier>CordsColor</Identifier>
+		<Type>STRING</Type>
+		<AttributeType>AllowedValues</AttributeType>
+		<Displayable>true</Displayable>
+		<Searchable>true</Searchable>
+		<Comparable>true</Comparable>
+		<StoreDisplay>0</StoreDisplay>
+		<Name>Color</Name>
+		<NameFrench>Couleur</NameFrench>
+	</LoadItem>
+	<LoadItem Sequence="2.0">
+		<Identifier>CordsSize</Identifier>
+		<Type>STRING</Type>
+		<AttributeType>AllowedValues</AttributeType>
+		<Displayable>true</Displayable>
+		<Searchable>true</Searchable>
+		<Comparable>true</Comparable>
+		<StoreDisplay>0</StoreDisplay>
+		<Name>Size</Name>
+		<NameFrench>Taille</NameFrench>
+	</LoadItem>
+	<LoadItem Sequence="3.0">
+		<Identifier>DressPantColor</Identifier>
+		<Type>STRING</Type>
+		<AttributeType>AllowedValues</AttributeType>
+		<Displayable>true</Displayable>
+		<Searchable>true</Searchable>
+		<Comparable>true</Comparable>
+		<StoreDisplay>0</StoreDisplay>
+		<Name>Color</Name>
+		<NameFrench>Couleur</NameFrench>
+	</LoadItem>
+	<LoadItem Sequence="4.0">
+		<Identifier>DressPantSize</Identifier>
+		<Type>STRING</Type>
+		<AttributeType>AllowedValues</AttributeType>
+		<Displayable>true</Displayable>
+		<Searchable>true</Searchable>
+		<Comparable>true</Comparable>
+		<StoreDisplay>0</StoreDisplay>
+		<Name>Size</Name>
+		<NameFrench>Taille</NameFrench>
+	</LoadItem>
+	<LoadItem Sequence="5.0">
+		<Identifier>DressShirtColor</Identifier>
+		<Type>STRING</Type>
+		<AttributeType>AllowedValues</AttributeType>
+		<Displayable>true</Displayable>
+		<Searchable>true</Searchable>
+		<Comparable>true</Comparable>
+		<StoreDisplay>0</StoreDisplay>
+		<Name>Color</Name>
+		<NameFrench>Couleur</NameFrench>
+	</LoadItem>
+	<LoadItem Sequence="6.0">
+		<Identifier>DressShirtSize</Identifier>
+		<Type>INTEGER</Type>
+		<AttributeType>AllowedValues</AttributeType>
+		<Displayable>true</Displayable>
+		<Searchable>true</Searchable>
+		<Comparable>true</Comparable>
+		<StoreDisplay>0</StoreDisplay>
+		<Name>Size</Name>
+		<NameFrench>Taille</NameFrench>
+	</LoadItem>
+	<LoadItem Sequence="7.0">
+		<Identifier>CasualShirtColor</Identifier>
+		<Type>STRING</Type>
+		<AttributeType>AllowedValues</AttributeType>
+		<Displayable>true</Displayable>
+		<Searchable>true</Searchable>
+		<Comparable>true</Comparable>
+		<StoreDisplay>0</StoreDisplay>
+		<Name>Color</Name>
+		<NameFrench>Couleur</NameFrench>
+	</LoadItem>
+	<LoadItem Sequence="8.0">
+		<Identifier>CasualShirtSize</Identifier>
+		<Type>STRING</Type>
+		<AttributeType>AllowedValues</AttributeType>
+		<Displayable>true</Displayable>
+		<Searchable>true</Searchable>
+		<Comparable>true</Comparable>
+		<StoreDisplay>0</StoreDisplay>
+		<Name>Size</Name>
+		<NameFrench>Taille</NameFrench>
+	</LoadItem>
+	<LoadItem Sequence="9.0">
+		<Identifier>BodysuitColor</Identifier>
+		<Type>STRING</Type>
+		<AttributeType>AllowedValues</AttributeType>
+		<Displayable>true</Displayable>
+		<Searchable>true</Searchable>
+		<Comparable>true</Comparable>
+		<StoreDisplay>0</StoreDisplay>
+		<Name>Color</Name>
+		<NameFrench>Couleur</NameFrench>
+	</LoadItem>
+	<LoadItem Sequence="10.0">
+		<Identifier>BodysuitSize</Identifier>
+		<Type>STRING</Type>
+		<AttributeType>AllowedValues</AttributeType>
+		<Displayable>true</Displayable>
+		<Searchable>true</Searchable>
+		<Comparable>true</Comparable>
+		<StoreDisplay>0</StoreDisplay>
+		<Name>Size</Name>
+		<NameFrench>Taille</NameFrench>
+	</LoadItem>
+	<LoadItem Sequence="11.0">
+		<Identifier>Style</Identifier>
+		<Type>STRING</Type>
+		<AttributeType>AssignedValues</AttributeType>
+		<Displayable>true</Displayable>
+		<Searchable>true</Searchable>
+		<Comparable>true</Comparable>
+		<StoreDisplay>0</StoreDisplay>
+		<Name>Style</Name>
+		<NameFrench>Mode</NameFrench>
+	</LoadItem>
+</LoadItems>
